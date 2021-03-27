@@ -3,52 +3,58 @@ import java.util.List;
 
 public class Mineral
 {
-    private String name;
-    private String crystalSystem;
-    private Range hardness;  
-    private String luster;
-    private String color;
-    private Integer cleavage;
+    private String name;            // 0
+    private String crystalSystem;   // 1
+    private Range hardness;         // 2
+    private StringList luster;      // 3
+    private StringList color;       // 4
+    private Integer cleavage;       // 5
 
-    private ArrayList<Object> mineral;
+    private String keyedColor;
 
-    private int key;
+    private ArrayList<Object> mineral = new ArrayList<Object>();
+
+    private int compKey;
+    private int colorKey;
 
     public Mineral()
     {
         name = "";
         crystalSystem = "";
         hardness = new Range();
-        luster = "";
-        color = "";
+        luster = new StringList();
+        color = new StringList();
         cleavage = 0;
-        key = 1;
+        
+        compKey = 0;
 
         loadArray();
     }
 
-    public Mineral(String name, String crystalsystem, Range hardness, String luster, String color, Integer cleavage)
+    public Mineral(String name, String crystalsystem, Range hardness, String[] luster, String[] color, Integer cleavage)
     {
         this.name = name;
         crystalSystem = crystalsystem;
         this.hardness = hardness;
-        this.luster = luster;
-        this.color = color;
+        this.luster = new StringList(luster);
+        this.color = new StringList(color);
         this.cleavage = cleavage;
-        key = 1;
+
+        compKey = 0;
+        keyedColor = this.color.getKeyedString();
 
         loadArray();
     }
 
-    public Mineral(String name, String crystalsystem, Range hardness, String luster, String color, Integer cleavage, int key)
+    public Mineral(String name, String crystalsystem, Range hardness, String[] luster, String[] color, Integer cleavage, int compKey)
     {
         this.name = name;
         crystalSystem = crystalsystem;
         this.hardness = hardness;
-        this.luster = luster;
-        this.color = color;
+        this.luster = new StringList(luster);
+        this.color = new StringList(color);
         this.cleavage = cleavage;
-        this.key = key;
+        this.compKey = compKey;
 
         loadArray();
     }
@@ -63,6 +69,7 @@ public class Mineral
     public void setName(String name)
     {
         this.name = name;
+        loadArray();
     }
 
     public String getCrystalSystem()
@@ -73,6 +80,7 @@ public class Mineral
     public void setCrystalSystem(String crystalSystem)
     {
         this.crystalSystem = crystalSystem;
+        loadArray();
     }
 
     public Range getHardness()
@@ -83,26 +91,29 @@ public class Mineral
     public void setHardness(Range hardness)
     {
         this.hardness = hardness;
+        loadArray();
     }
 
-    public String getLuster()
+    public StringList getLuster()
     {
         return luster;
     }
     
-    public void setLuster(String luster)
+    public void setLuster(StringList luster)
     {
         this.luster = luster;
+        loadArray();
     }
 
-    public String getColor()
+    public StringList getColor()
     {
         return color;
     }
 
-    public void setColor(String color)
+    public void setColor(StringList color)
     {
         this.color = color;
+        loadArray();
     }
     
     public Integer getCleavage()
@@ -113,49 +124,79 @@ public class Mineral
     public void setCleavage(Integer cleavage)
     {
         this.cleavage = cleavage;
+        loadArray();
     }
 
-    public int getKey()
+    public int getCompKey()
     {
-        return key;
+        return compKey;
     }
 
-    public void setKey(int key)
+    public void setCompKey(int compKey)
     {
-        this.key = key;
+        this.compKey = compKey;
+        luster.setKey(compKey);
+        color.setKey(compKey);
     }
     
-    public void setKey(String k)
+    public void setCompKey(String k)
     {
         k = k.toUpperCase();
 
         switch (k)
         {
             case "NAME":
-                key = 0;
+                compKey = 0;
                 break;
             case "CRYSTAL SYSTEM":
-                key = 1;
+                compKey = 1;
                 break;
             case "HARDNESS":
-                key = 2;
+                compKey = 2;
                 break;
             case "LUSTER":
-                key = 3;
+                compKey = 3;
                 break;
             case "COLOR":
-                key = 4;
+                compKey = 4;
                 break;
             case "CLEAVAGE":
-                key = 5;
+                compKey = 5;
                 break;
         }
     }
-
-    public Object returnKey()
+    
+    public Object returnCompKey()
     {
-        return mineral.get(0);
+        Object ret = mineral.get(compKey);
+        
+    /*
+        // if it is a StringList, return the keyed String
+        if (ret instanceof StringList)
+        {
+            StringList sRet = (StringList) ret;
+            return sRet.getKeyedString();
+        }
+*/
+        return ret;
     }
+
+    public int getColorKey()
+    {
+        return colorKey;
+    }
+
+    public void setColorKey(int colorKey)
+    {
+        this.colorKey = colorKey;
+    }
+
+    public int advanceColorKey()
+    {
+        return ++colorKey;
+    }
+
+    
 
     public void loadArray()
     {
@@ -174,14 +215,9 @@ public class Mineral
         String minOut = "";
         minOut += "Name: " + name + "\n";
         minOut += "Crystal System: " + crystalSystem + "\n";
-        if (hardness.getRange() == 0)
-            minOut += "Hardness: " + hardness.getMin() + "\n";
-        else if (hardness.getRange() > 0)
-            minOut += "Hardness: " + hardness.getMin() + "-" + hardness.getMax() + "\n";
-        else
-            minOut += "Hardness: " + "\n";
-        minOut += "Luster: " + luster + "\n";
-        minOut += "Color: " + color + "\n";
+        minOut += "Hardness: " + hardness.toString() + "\n";
+        minOut += "Luster: " + luster.toString() + "\n";
+        minOut += "Color: " + color.toString() + "\n";
         minOut += "Cleavage: " + cleavage + "\n";
 
         return minOut;

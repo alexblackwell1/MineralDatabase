@@ -24,25 +24,25 @@ Fluorite; Isometric; 4; Glassy; White, Yellow, Green, Red, Blue; 3
 Galena; Isometric; 2.5; Metallic; Light Gray, Dark Gray, Gray; 3
 Garnet; Isometric; 6.5-7.5; Vitreous; Red, Orange, Green, Black, Brown, Purple; None
 Glaucophane; Monoclinic ; 6-6.5; Vitreous, Pearly; Gray, Blue; 2
-Goehtite, Limonite; Orthorhombic; 5-5.5; Silky; Brown, Yellowish; 2
+Goehtite; Orthorhombic; 5-5.5; Silky; Brown, Yellowish; 2
 Graphite; Hexagonal; 1.5-2; Sub Metallic; Black, Gray; 1
 Gypsum; Monoclinic; 2; Pearly; White, Colorless, Yellowish White, Greenish White, Brown; 3
 Halite; Isometric; 2.5; Glassy; White, Clear, Blue, Pink; 3
 Hematite; Trigonal; 6.5; Metallic; Red, Black, Gray; None
-Hornblende; Monoclinic; 5-6; Vitreous, Pearly; Brown, Green, Greenish Black; Dark Green; 2
+Hornblende; Monoclinic; 5-6; Vitreous, Pearly; Brown, Green, Greenish Black, Dark Green; 2
 Ilmenite; Trigonal; 5-5.5; Sub Metallic; Iron Black, Black; None
-Kaolinite; Triclinic; 1.5-2; Earthy, Dull; Wite, Brownish White, Grayish White; Yellowish White; Grayish Green; 1
+Kaolinite; Triclinic; 1.5-2; Earthy, Dull; Wite, Brownish White, Grayish White, Yellowish White, Grayish Green; 1
 Kyanite; Triclinic; 5-7; Vitreous, Pearly; Blue, White, Gray, Green, Black; 2
 Magnetite; Isometric; 5.5-6; Metallic; Grayish Black, Iron Black; None
 Malachite; Monoclinic; 3.5-4; Silky; Green, Dark Green, Blackish Green; 2
 Microcline; Triclinic; 6; Vitreous, Glassy; Bluish Green, Gray, Green, Grayish Yellow, Yellowish; 2
 Molybdenite; Hexagonal; 1-1.5; Metallic; Black, Lead Gray, Gray, Silvery Blue; 1
 Muscovite; Monoclinic; 2-2.5; Vitreous, Glassy; White, Gray, Silver White, Brownish White, Greenish White; 1
-Nepheline; Hexagonal; Vitreous, Greasy; White, Gray, Brownish Gray, Reddish White; 1
-Olivine; Orthorhombic; Vitreous, Glassy; Yellowish Green, Olive Green, Greenish Black, Reddish Brown; 2
+Nepheline; Hexagonal; 6; Vitreous, Greasy; White, Gray, Brownish Gray, Reddish White; 1
+Olivine; Orthorhombic; 6.5-7; Vitreous, Glassy; Yellowish Green, Olive Green, Greenish Black, Reddish Brown; 2
 Orthoclase; Monoclinic; 6; Vitreous, Glassy; Colorless, Greenish, Greenish Yellow, White, Pink; 2
 Albite; Triclinic; 7; Vitreous, Glassy; White, Greenish Gray, Bluish Green, Gray; 2
-Anorthite; Triclinic; Vitreous, Glassy; Colorless, Gray White, Red, Reddish Gray; 2
+Anorthite; Triclinic; 6; Vitreous, Glassy; Colorless, Gray White, Red, Reddish Gray; 2
 Pyrite; Isometric; 6.5; Metallic; Pale Brass Yellow, Yellow; 2
 Pyrophyllite; Triclinic; 1.5-2; Pearly; Brown Green, Brownish Yellow, Greenish, Gray Green, Gray White; 1
 Pyrrhotite; Monoclinic; 3.5-4; Metallic; Bronze; 2
@@ -53,8 +53,9 @@ Serpentine; Monoclinic; 3-6; Greasy, Waxy; Green, Yellow, Black, White; 1
 Siderite; Trigonal; 3-3.5; Glassy; Yellowish Brown, Brown, Gray, Yellowish Gray, Greenish Gray; 3
 Sillimanite; Orthorhombic; 7; Vitreous, Glassy; Bluish, Brownish Greenish, Colorless, Gray, Gray Green; 1
 Sodalite; Isometric; 6; Vitreous, Greasy; Blue, White, Pink, Gray, Green; 1
+Zircon; Tetragonal; 7.5; Adamantine; Brown, Reddish Brown, Colorless, Gray, Green; 1
 Sphalerite; Isometric; 3.5-4; Greasy; Brown; 3
-Staurolite; Monoclinic, 7-7.5; Vitreous, Dull; Brownish Yellow, Brownish Black, Yellow Brown, Dark Brown, Reddish Brown; 1
+Staurolite; Monoclinic; 7-7.5; Vitreous, Dull; Brownish Yellow, Brownish Black, Yellow Brown, Dark Brown, Reddish Brown; 1
 Sulfur; Orthorhombic; 1.5-2.5; Resinous; Yellow, Yellowish Brown, Yellowish Gray, Reddish; 1
 Talc; Monoclinic; 1; Vitreous, Greasy, Pearly; Pale Green, White, Gray White, Yellowish White, Brownish White; 1
 Titanite; Monoclinic; 5-5.5; Adamantine, Resinous; Reddish Brown, Gray, Yellow, Green, Red; 3
@@ -62,4 +63,3 @@ Topaz; Orthorhombic; 8; Vitreous, Glassy; Colorless, Pale Blue, Yellowish Brown,
 Tourmaline; Trigonal; 7; Vitreous, Greasy; Light Pink; None
 Tremolite; Monoclinic; 5-6; Vitreous, Pearly; Brown, Colorless, Gray, White, Light Green; 2
 Wollastonite; Triclinic; 5; Vitreous, Silky; White, Yellow, Gray, Red, Brown; 3
-Zircon; Tetragonal; 7.5; Adamantine; Brown, Reddish Brown, Colorless, Gray, Green; 1

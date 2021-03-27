@@ -52,8 +52,29 @@ public class Range
         if (min < r2.getMin())
             return -1;
         else if (min == r2.getMin())
-            return 0;
+        {
+            if (max >= r2.getMax())
+                return -1;
+            else
+                return 1;
+        }
         else
             return 1;
+    }
+
+    public String toString()
+    {
+        String print = "";
+        
+        if (min == max)
+        {
+            print += min;
+        }
+        else if (min != max)
+        {
+            print += "-" + max;
+        }
+
+        return print;
     }
 }
