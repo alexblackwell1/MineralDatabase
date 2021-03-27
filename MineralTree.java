@@ -23,10 +23,84 @@ public class MineralTree
     {
         this.list = list;
         head = list.get(0);
-        key = 1;
+        key = 5;
 
-        formTree(1);
+        formTree(5);
     }
+
+    //Setters and Getters
+    public MineralNode getHead()
+    {
+        return head;
+    }
+
+
+    public int getKey()
+    {
+        return key;
+    }
+
+    public void setKey(int compKey)
+    {
+        if (compKey != key)
+        {
+            this.key = compKey;
+            formTree(key);
+        }
+    }
+
+    public boolean isEmpty()
+    {
+        return head == null;
+    }
+
+    public void formTree(int key)
+    {
+        head = list.get(0);
+        
+        this.key = key;
+        MineralNode cur;
+
+        for (int i = 1; i < list.size(); i++) 
+        {
+            cur = list.get(i);      // MineralNode
+            cur.setKey(key);        
+
+            // for lists (luster/color)
+            // duplicate node n times
+            // place each in tree on different element
+
+            if (key == 3 || key == 4)
+            {
+                // find the number of elements
+                StringList trait = (StringList) cur.getKeyedValue();
+                // duplicate and set
+                for (int j = 0; j < trait.getLength(); j++)
+                {
+                    Object kv = trait.getAt(j);             // String
+                    head.addElement(new MineralNode(cur, kv));
+                }
+            }
+            else
+            {
+                head.addElement(cur);
+            }
+        }
+    }
+
+    public String toString()
+    {
+        return head.toString();
+    }
+}
+
+
+
+
+
+
+
+
 /*
     public void addElement(MineralNode m)
     {
@@ -61,66 +135,3 @@ public class MineralTree
     }
 */
     
-    //Setters and Getters
-    public MineralNode getHead()
-    {
-        return head;
-    }
-
-
-    public int getKey()
-    {
-        return key;
-    }
-
-    public void setKey(int compKey)
-    {
-        if (compKey != key)
-        {
-            this.key = compKey;
-            formTree(key);
-        }
-    }
-
-    public boolean isEmpty()
-    {
-        return head == null;
-    }
-
-    public void formTree(int key)
-    {
-        this.key = key;
-        MineralNode cur;
-        for (int i = 1; i < list.size(); i++) 
-        {
-            cur = list.get(i);
-            cur.getData().setCompKey(key);
-            cur.setKey(key);
-
-            // for lists (luster/color)
-            // duplicate node n times
-            // place each in tree on different element
-
-            if (key == 3 || key == 4)
-            {
-                // find the number of elements
-                StringList trait = (StringList) cur.getKeyedValue();
-                // duplicate and set
-                for (int j = 0; j < trait.getLength(); j++)
-                {
-                    Object kv = trait.getAt(j);             // String
-                    head.addElement(new MineralNode(cur, kv));
-                }
-            }
-            else
-            {
-                head.addElement(cur);
-            }
-        }
-    }
-
-    public String toString()
-    {
-        return head.toString();
-    }
-}

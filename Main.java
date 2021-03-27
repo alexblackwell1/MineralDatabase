@@ -181,10 +181,11 @@ public class Main
             while (scanner.hasNextLine())
             {
                 String data = scanner.nextLine();
-                String[] elements = data.split(";");
                 Mineral currentMineral = new Mineral();
                 if (data.length() > 0)
                 {
+                    String[] elements = data.split(";");
+
                     for (int i = 0; i < elements.length; i++)
                     {
                         elements[i] = elements[i].replaceAll("\\s","");

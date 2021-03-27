@@ -10,12 +10,9 @@ public class Mineral
     private StringList color;       // 4
     private Integer cleavage;       // 5
 
-    private String keyedColor;
-
     private ArrayList<Object> mineral = new ArrayList<Object>();
 
     private int compKey;
-    private int colorKey;
 
     public Mineral()
     {
@@ -30,35 +27,6 @@ public class Mineral
 
         loadArray();
     }
-
-    public Mineral(String name, String crystalsystem, Range hardness, String[] luster, String[] color, Integer cleavage)
-    {
-        this.name = name;
-        crystalSystem = crystalsystem;
-        this.hardness = hardness;
-        this.luster = new StringList(luster);
-        this.color = new StringList(color);
-        this.cleavage = cleavage;
-
-        compKey = 0;
-        keyedColor = this.color.getKeyedString();
-
-        loadArray();
-    }
-
-    public Mineral(String name, String crystalsystem, Range hardness, String[] luster, String[] color, Integer cleavage, int compKey)
-    {
-        this.name = name;
-        crystalSystem = crystalsystem;
-        this.hardness = hardness;
-        this.luster = new StringList(luster);
-        this.color = new StringList(color);
-        this.cleavage = cleavage;
-        this.compKey = compKey;
-
-        loadArray();
-    }
-
 
     //Setters and Getters
     public String getName()
@@ -132,71 +100,18 @@ public class Mineral
         return compKey;
     }
 
-    public void setCompKey(int compKey)
+    public void setCompKey(int ck)
     {
-        this.compKey = compKey;
+        compKey = ck;
+System.out.println(compKey);
         luster.setKey(compKey);
         color.setKey(compKey);
     }
-    
-    public void setCompKey(String k)
-    {
-        k = k.toUpperCase();
 
-        switch (k)
-        {
-            case "NAME":
-                compKey = 0;
-                break;
-            case "CRYSTAL SYSTEM":
-                compKey = 1;
-                break;
-            case "HARDNESS":
-                compKey = 2;
-                break;
-            case "LUSTER":
-                compKey = 3;
-                break;
-            case "COLOR":
-                compKey = 4;
-                break;
-            case "CLEAVAGE":
-                compKey = 5;
-                break;
-        }
-    }
-    
     public Object returnCompKey()
     {
-        Object ret = mineral.get(compKey);
-        
-    /*
-        // if it is a StringList, return the keyed String
-        if (ret instanceof StringList)
-        {
-            StringList sRet = (StringList) ret;
-            return sRet.getKeyedString();
-        }
-*/
-        return ret;
-    }
-
-    public int getColorKey()
-    {
-        return colorKey;
-    }
-
-    public void setColorKey(int colorKey)
-    {
-        this.colorKey = colorKey;
-    }
-
-    public int advanceColorKey()
-    {
-        return ++colorKey;
-    }
-
-    
+        return mineral.get(compKey);        //Type Object ArrrayList
+    }    
 
     public void loadArray()
     {
