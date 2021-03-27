@@ -5,7 +5,7 @@ public class Mineral
 {
     private String name;
     private String crystalSystem;
-    private ArrayList<Double> hardness;  
+    private Range hardness;  
     private String luster;
     private String color;
     private Integer cleavage;
@@ -18,7 +18,7 @@ public class Mineral
     {
         name = "";
         crystalSystem = "";
-        hardness = new ArrayList<Double>();
+        hardness = new Range();
         luster = "";
         color = "";
         cleavage = 0;
@@ -27,7 +27,7 @@ public class Mineral
         loadArray();
     }
 
-    public Mineral(String name, String crystalsystem, ArrayList<Double> hardness, String luster, String color, Integer cleavage)
+    public Mineral(String name, String crystalsystem, Range hardness, String luster, String color, Integer cleavage)
     {
         this.name = name;
         crystalSystem = crystalsystem;
@@ -40,7 +40,7 @@ public class Mineral
         loadArray();
     }
 
-    public Mineral(String name, String crystalsystem, ArrayList<Double> hardness, String luster, String color, Integer cleavage, int key)
+    public Mineral(String name, String crystalsystem, Range hardness, String luster, String color, Integer cleavage, int key)
     {
         this.name = name;
         crystalSystem = crystalsystem;
@@ -75,12 +75,12 @@ public class Mineral
         this.crystalSystem = crystalSystem;
     }
 
-    public ArrayList<Double> getHardness()
+    public Range getHardness()
     {
         return hardness;
     }
 
-    public void setHardness(ArrayList<Double> hardness)
+    public void setHardness(Range hardness)
     {
         this.hardness = hardness;
     }
@@ -115,8 +115,6 @@ public class Mineral
         this.cleavage = cleavage;
     }
 
-
-
     public int getKey()
     {
         return key;
@@ -134,45 +132,29 @@ public class Mineral
         switch (k)
         {
             case "NAME":
-                key = 1;
+                key = 0;
                 break;
             case "CRYSTAL SYSTEM":
-                key = 2;
+                key = 1;
                 break;
             case "HARDNESS":
-                key = 3;
+                key = 2;
                 break;
             case "LUSTER":
-                key = 4;
+                key = 3;
                 break;
             case "COLOR":
-                key = 5;
+                key = 4;
                 break;
             case "CLEAVAGE":
-                key = 6;
+                key = 5;
                 break;
         }
     }
 
     public Object returnKey()
     {
-        switch (key)
-        {
-            case 1:
-                return name;
-            case 2:
-                return crystalSystem;
-            case 3:
-                return hardness;
-            case 4:
-                return luster;
-            case 5:
-                return color;
-            case 6:
-                return cleavage;
-        }
-
-        return -1;
+        return mineral.get(0);
     }
 
     public void loadArray()
@@ -192,10 +174,10 @@ public class Mineral
         String minOut = "";
         minOut += "Name: " + name + "\n";
         minOut += "Crystal System: " + crystalSystem + "\n";
-        if (hardness.size() == 1)
-            minOut += "Hardness: " + hardness.get(0) + "\n";
-        else if (hardness.size() > 1)
-            minOut += "Hardness: " + hardness.get(0) + "-" + hardness.get(1) + "\n";
+        if (hardness.getRange() == 0)
+            minOut += "Hardness: " + hardness.getMin() + "\n";
+        else if (hardness.getRange() > 0)
+            minOut += "Hardness: " + hardness.getMin() + "-" + hardness.getMax() + "\n";
         else
             minOut += "Hardness: " + "\n";
         minOut += "Luster: " + luster + "\n";
@@ -205,3 +187,4 @@ public class Mineral
         return minOut;
     }
 }
+

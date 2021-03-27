@@ -28,68 +28,142 @@ public class MineralNode
         this.data = data;
     }
 
+    public void addElement(Mineral elem)
+    {
+        int key = data.getKey();
+        elem.setKey(key);
+
+        MineralNode child = new MineralNode(elem);
+
+        switch (key)
+        {
+            case 0:
+            case 1:
+            case 3:
+            case 4:
+                String s1 = (String) data.returnKey();
+                String s2 = (String) elem.returnKey();
+                if (s1.compareTo(s2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
+                else
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
+            case 2:
+                Range r1 = (Range) data.returnKey();
+                Range r2 = (Range) elem.returnKey();
+                if (r1.compareTo(r2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
+                else
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
+            default:
+                Integer i1 = (Integer) data.returnKey();
+                Integer i2 = (Integer) elem.returnKey();
+                if (i1.compareTo(i2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
+                else
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
+        }
+    }
+
     public void addElement(MineralNode child)
     {
-        if (data.returnKey() instanceof String)
-        {
-            String s1 = (String) data.returnKey();
-            String s2 = (String) child.getData().returnKey();
-            if (s1.compareTo(s2) <= 0)
-            {
-                if (lNode == null)
-                    lNode = child;
-                else
-                    lNode.addElement(child);
-            }
-            else
-            {
-                if (rNode == null)
-                    rNode = child;
-                else
-                    rNode.addElement(child);
-            }
-        }
+        int key = data.getKey();
 
-        else if (data.returnKey() instanceof Integer)
-        {
-            Integer s1 = (Integer) data.returnKey();
-            Integer s2 = (Integer) child.getData().returnKey();
-            if (s1 <= s2)
-            {
-                if (lNode == null)
-                    lNode = child;
-                else
-                    lNode.addElement(child);
-            }
-            else
-            {
-                if (rNode == null)
-                    rNode = child;
-                else
-                    rNode.addElement(child);
-            }
-        }
+        Mineral elem = child.getData();
 
-        else
+        elem.setKey(key);
+
+        switch (key)
         {
-            ArrayList<Double> hardnessRange1 = (ArrayList) data.returnKey();
-            ArrayList<Double> hardnessRange2 = (ArrayList) child.getData().returnKey();
-            Double k1 = (Double) hardnessRange1.get(0);
-            Double k2 = (Double) hardnessRange2.get(0);
-            if (k1 <= k2)
-            {
-                if (lNode == null)
-                    lNode = child;
+            case 0:
+            case 1:
+            case 3:
+            case 4:
+                String s1 = (String) data.returnKey();
+                String s2 = (String) elem.returnKey();
+                if (s1.compareTo(s2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
                 else
-                    lNode.addElement(child);
-            }
-            else
-            {
-                if (rNode == null)
-                    rNode = child;
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
+            case 2:
+                Range r1 = (Range) data.returnKey();
+                Range r2 = (Range) elem.returnKey();
+                if (r1.compareTo(r2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
                 else
-                    rNode.addElement(child);
-            }
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
+            default:
+                Integer i1 = (Integer) data.returnKey();
+                Integer i2 = (Integer) elem.returnKey();
+                if (i1.compareTo(i2) <= 0)
+                {
+                    if (lNode == null)
+                            lNode = child;
+                    else
+                        lNode.addElement(elem);
+                }
+                else
+                {
+                    if (rNode == null)
+                            rNode = child;
+                    else
+                        rNode.addElement(elem);
+                }
+                break;
         }
     }
 

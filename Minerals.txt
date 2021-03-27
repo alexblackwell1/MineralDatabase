@@ -1,5 +1,3 @@
-Name; Crystal System; Hardness; Luster; Color; Cleavage
-
 Actinolite; Monoclinic; 5; Vitreous, Glassy; Green, Green Black, Gray Green, Black; 2
 Andalusite; Orthorhombic; 6.5-7; Vitreous, Glassy; Dark Green, Gray, Brown, Red, Green; 3
 Apatite; Hexagonal; 5; Resinous, Vitreous; Blue, Brown, Colorless, Violet, Green; 1
