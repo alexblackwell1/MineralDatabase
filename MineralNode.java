@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class MineralNode
 {
     private MineralNode lNode;
-    private MineralNode rNode;
+    private MineralNode rNode; 
     private Mineral data;
 
     public MineralNode()
@@ -27,20 +30,66 @@ public class MineralNode
 
     public void addElement(MineralNode child)
     {
-        
-        if (data.getName().compareTo(child.getData().getName()) <= 0)
+        if (data.returnKey() instanceof String)
         {
-            if (lNode == null)
-                lNode = child;
+            String s1 = (String) data.returnKey();
+            String s2 = (String) child.getData().returnKey();
+            if (s1.compareTo(s2) <= 0)
+            {
+                if (lNode == null)
+                    lNode = child;
+                else
+                    lNode.addElement(child);
+            }
             else
-                lNode.addElement(child);
+            {
+                if (rNode == null)
+                    rNode = child;
+                else
+                    rNode.addElement(child);
+            }
         }
+
+        else if (data.returnKey() instanceof Integer)
+        {
+            Integer s1 = (Integer) data.returnKey();
+            Integer s2 = (Integer) child.getData().returnKey();
+            if (s1 <= s2)
+            {
+                if (lNode == null)
+                    lNode = child;
+                else
+                    lNode.addElement(child);
+            }
+            else
+            {
+                if (rNode == null)
+                    rNode = child;
+                else
+                    rNode.addElement(child);
+            }
+        }
+
         else
         {
-            if (rNode == null)
-                rNode = child;
+            ArrayList<Double> hardnessRange1 = (ArrayList) data.returnKey();
+            ArrayList<Double> hardnessRange2 = (ArrayList) child.getData().returnKey();
+            Double k1 = (Double) hardnessRange1.get(0);
+            Double k2 = (Double) hardnessRange2.get(0);
+            if (k1 <= k2)
+            {
+                if (lNode == null)
+                    lNode = child;
+                else
+                    lNode.addElement(child);
+            }
             else
-                rNode.addElement(child);
+            {
+                if (rNode == null)
+                    rNode = child;
+                else
+                    rNode.addElement(child);
+            }
         }
     }
 
@@ -65,12 +114,12 @@ public class MineralNode
         this.rNode = rNode;
     }
     
-    public Mineral getdata()
+    public Mineral getData()
     {
         return data;
     }
     
-    public void setdata(Mineral data)
+    public void setData(Mineral data)
     {
         this.data = data;
     }

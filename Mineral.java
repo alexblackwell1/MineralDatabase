@@ -1,24 +1,33 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Mineral
 {
     private String name;
     private String crystalSystem;
-    private double[] hardness;  
+    private ArrayList<Double> hardness;  
     private String luster;
     private String color;
-    private int cleavage;
+    private Integer cleavage;
+
+    private ArrayList<Object> mineral;
+
+    private int key;
 
     public Mineral()
     {
         name = "";
         crystalSystem = "";
-        hardness = new double[0];
+        hardness = new ArrayList<Double>();
         luster = "";
         color = "";
         cleavage = 0;
-        
+        key = 1;
+
+        loadArray();
     }
 
-    public Mineral(String name, String crystalsystem, double[] hardness, String luster, String color, int cleavage)
+    public Mineral(String name, String crystalsystem, ArrayList<Double> hardness, String luster, String color, Integer cleavage)
     {
         this.name = name;
         crystalSystem = crystalsystem;
@@ -26,6 +35,22 @@ public class Mineral
         this.luster = luster;
         this.color = color;
         this.cleavage = cleavage;
+        key = 1;
+
+        loadArray();
+    }
+
+    public Mineral(String name, String crystalsystem, ArrayList<Double> hardness, String luster, String color, Integer cleavage, int key)
+    {
+        this.name = name;
+        crystalSystem = crystalsystem;
+        this.hardness = hardness;
+        this.luster = luster;
+        this.color = color;
+        this.cleavage = cleavage;
+        this.key = key;
+
+        loadArray();
     }
 
 
@@ -50,12 +75,12 @@ public class Mineral
         this.crystalSystem = crystalSystem;
     }
 
-    public double[] getHardness()
+    public ArrayList<Double> getHardness()
     {
         return hardness;
     }
 
-    public void setHardness(double[] hardness)
+    public void setHardness(ArrayList<Double> hardness)
     {
         this.hardness = hardness;
     }
@@ -80,25 +105,97 @@ public class Mineral
         this.color = color;
     }
     
-    public int getCleavage()
+    public Integer getCleavage()
     {
         return cleavage;
     }
 
-    public void setCleavage(int cleavage)
+    public void setCleavage(Integer cleavage)
     {
         this.cleavage = cleavage;
     }
+
+
+
+    public int getKey()
+    {
+        return key;
+    }
+
+    public void setKey(int key)
+    {
+        this.key = key;
+    }
+    
+    public void setKey(String k)
+    {
+        k = k.toUpperCase();
+
+        switch (k)
+        {
+            case "NAME":
+                key = 1;
+                break;
+            case "CRYSTAL SYSTEM":
+                key = 2;
+                break;
+            case "HARDNESS":
+                key = 3;
+                break;
+            case "LUSTER":
+                key = 4;
+                break;
+            case "COLOR":
+                key = 5;
+                break;
+            case "CLEAVAGE":
+                key = 6;
+                break;
+        }
+    }
+
+    public Object returnKey()
+    {
+        switch (key)
+        {
+            case 1:
+                return name;
+            case 2:
+                return crystalSystem;
+            case 3:
+                return hardness;
+            case 4:
+                return luster;
+            case 5:
+                return color;
+            case 6:
+                return cleavage;
+        }
+
+        return -1;
+    }
+
+    public void loadArray()
+    {
+        mineral.add(0, name);
+        mineral.add(1, crystalSystem);
+        mineral.add(2, hardness);
+        mineral.add(3, luster);
+        mineral.add(4, color);
+        mineral.add(5, cleavage);
+    }
+
+
 
     public String toString()
     {
         String minOut = "";
         minOut += "Name: " + name + "\n";
         minOut += "Crystal System: " + crystalSystem + "\n";
-        if (hardness.length == 1)
-            minOut += "Hardness: " + hardness[0] + "\n";
-        else if (hardness.length > 1)
-            minOut += "Hardness: " + hardness[0] + " " + hardness[1] + "\n";
+        if (hardness.size() == 1)
+            minOut += "Hardness: " + hardness.get(0) + "\n";
+        else if (hardness.size() > 1)
+            minOut += "Hardness: " + hardness.get(0) + "-" + hardness.get(1) + "\n";
         else
             minOut += "Hardness: " + "\n";
         minOut += "Luster: " + luster + "\n";
