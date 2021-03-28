@@ -60,16 +60,12 @@ public class StringList
     public void setStringListKey(int key)
     {
         this.key = key;
+        keyedString = list[key];
     }
 
     public String getKeyedString()
     {
         return keyedString;
-    }
-
-    public void setKeyedString(String keyedString)
-    {
-        this.keyedString=keyedString;
     }
 
     public int getLength()

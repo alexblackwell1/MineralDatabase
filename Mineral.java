@@ -103,9 +103,6 @@ public class Mineral
     public void setMineralKey(int key)
     {
         mineralKey = key;
-
-        luster.setStringListKey(mineralKey);
-        color.setStringListKey(mineralKey);
     }
 
     public Object returnMineralKeyedValue()
@@ -131,15 +128,15 @@ public class Mineral
     public String toString()
     {
         String minOut = "";
-        minOut += "Name: \t\t" + name + "\n";
+        minOut += "Name: \t\t\t" + name + "\n";
         minOut += "Crystal System: " + crystalSystem + "\n";
-        minOut += "Hardness: \t" + hardness.toString() + "\n";
-        minOut += "Luster: \t" + luster.toString() + "\n";
-        minOut += "Color: \t\t" + color.toString() + "\n";
+        minOut += "Hardness: \t\t" + hardness.toString() + "\n";
+        minOut += "Luster: \t\t" + luster.toString() + "\n";
+        minOut += "Color: \t\t\t" + color.toString() + "\n";
         if (cleavage.equals(0))
-            minOut += "Cleavage: \tNone\n";
+            minOut += "Cleavage: \t\tNone";
         else
-            minOut += "Cleavage: \t" + cleavage + "\n";
+            minOut += "Cleavage: \t\t" + cleavage;
 
         return minOut;
     }

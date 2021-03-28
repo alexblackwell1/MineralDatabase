@@ -60,20 +60,19 @@ public class MineralTree
 
         head = list.get(0);
         head.setNodeKey(key);
+        head.setLNode(null);
+        head.setRNode(null);
         
-//System.out.println("treeKey: "+treeKey);
         MineralNode cur;
 
         for (int i = 1; i < list.size(); i++) 
         {
-            cur = list.get(i);      // MineralNode
-            cur.setNodeKey(treeKey);        
-//System.out.println("nodeKey: "+cur.getNodeKey());
-//System.out.println("mineralKey: "+cur.getData().getMineralKey());
+            cur = list.get(i);          // MineralNode
+            cur.setNodeKey(treeKey);    // Sets node/mineral KEY and mineral key VALUE
+
             // for lists (luster/color)
             // duplicate node n times
             // place each in tree on different element
-
             if (treeKey == 3 || treeKey == 4)
             {
                 // find the number of elements
@@ -82,9 +81,20 @@ public class MineralTree
                 for (int j = 0; j < trait.getLength(); j++)
                 {
                     Object kv = trait.getAt(j);             // String
+                    StringList traitsList = (StringList) cur.getKeyedValue();
+                    switch (treeKey)
+                    {
+                        case 3:
+                            cur.getData().getLuster().setStringListKey(j);
+                            break;
+                        case 4:
+                            cur.getData().getColor().setStringListKey(j);
+                            break;
+                    }
                     head.addElement(new MineralNode(cur, kv), treeKey);
                 }
             }
+
             else
             {
                 head.addElement(cur, treeKey);
@@ -98,44 +108,3 @@ public class MineralTree
     }
 }
 
-
-
-
-
-
-
-
-/*
-    public void addElement(MineralNode m)
-    {
-        
-        if  (head == null)
-            head = m;
-        //go Left
-        else if (head.getKeyedValue().compareTo(m.getKeyedValue()) <= 0)
-        {
-            if (head.getLNode() == null)
-                head.setLNode() = m;
-            else
-                head.getLNode().addElement(m);
-        }
-        //go Right
-        else if (head.getKeyedValue().compareTo(m.getKeyedValue()) > 0)
-        {
-            if (head.getRNode() == null)
-                head.setRNode() = m;
-            else
-                head.getRNode().addElement(m);
-        }
-    }
-
-    public MineralNode removeElement(MineralNode node)
-    {
-        if (head == node)
-        {
-            
-        }
-        return null;
-    }
-*/
-    

@@ -4,6 +4,8 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Main
 {
@@ -35,9 +37,11 @@ fileName = "Minerals.txt";
 
         workingSet = options(workingSet, mineralList);      // creates a tree coded on Names
 
-        workingSet.setTreeKey(1);
+        workingSet.setTreeKey(4);
 
-        System.out.println(workingSet.toString());
+        toFile(workingSet);
+
+//        System.out.println(workingSet.toString());
 /*
         do
         {
@@ -269,5 +273,20 @@ fileName = "Minerals.txt";
         }
         
         return null;
+    }
+
+    public static void toFile(MineralTree tree)
+    {
+        File myObj = new File("dump.txt");
+        
+        try {
+            FileWriter myWriter = new FileWriter("dump.txt");
+            myWriter.write(tree.toString());
+            myWriter.close();
+            System.out.println("Successfully wrote to the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
     }
 }
