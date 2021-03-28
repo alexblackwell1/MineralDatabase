@@ -30,119 +30,54 @@ fileName = "Minerals.txt";
         } while (!f1.exists());
 
         ArrayList<Mineral> mineralList = readFile(fileName);
-        MineralTree workingSet = new MineralTree();
-
-        String answer;
-        boolean b;
-
-        workingSet = options(workingSet, mineralList);      // creates a tree coded on Names
-
-        workingSet.setTreeKey(4);
+        
+        Sorter workingSet = options(mineralList);
 
         toFile(workingSet);
-
-//        System.out.println(workingSet.toString());
-/*
-        do
-        {
-            
-
-            System.out.println("Do you want to search for a mineral? (y/n)");
-            answer = scanner.nextLine().toLowerCase();
-
-            b = false;
-            b |= (answer.compareTo("y") == 0);
-            b |= (answer.compareTo("n") == 0);
-
-            if(!b)
-            {
-                System.out.println("Please enter y or n");
-            }
-        
-        } while (!b);
-
-        if (answer.compareTo("n") == 0)
-            System.out.println("Have a gneiss day!");
-        else 
-        {
-            
-        }
-*/
     }
 
-    public static MineralTree options(MineralTree workingSet, ArrayList<Mineral> mineralList)
+    public static Sorter options(ArrayList<Mineral> mineralList)
     {
         Scanner scanner = new Scanner(System.in);
-        String answer;
+        String answer = "";
+        int ans = -1;
         boolean b;
 
         do {
-            // give the user the options they can do with the data set
-
-            System.out.println("Here are the following options or enter 'back' to return:");
-            b = false;
-
-            // If there is no set yet
-            if (workingSet.isEmpty())
-            {
-                // option 1
-                System.out.println("\t1. Start new data set");
-                answer = scanner.nextLine().toLowerCase();
-
-                b |= (answer.compareTo("1") == 0);
-                b |= (answer.toLowerCase().compareTo("back") == 0);
-
-                if (answer.toLowerCase().compareTo("back") == 0)
-                    return null;
-                if (!b)
-                    System.out.println("Please enter 1 or 'back' to continue");
-                else
-                {
-                    ArrayList<MineralNode> nodeList = new ArrayList<MineralNode>();
-
-                    for (int i = 0; i < mineralList.size(); i++)
-                    nodeList.add(i, new MineralNode(mineralList.get(i)));      // Minerals to Nodes
-
-                    return new MineralTree(nodeList);
-                }
-            }
-
-            // If a set is present ...
-            else if (!workingSet.isEmpty())
-            {
-                // option 2-4
-                System.out.println("\t1. Start new data set");
-                System.out.println("\t2. Print set");
-                System.out.println("\t3. Add to set");
-                System.out.println("\t4. Remove from set");
-                answer = scanner.nextLine().toLowerCase();
-
-                b |= (answer.toLowerCase().compareTo("back") == 0);
-                b |= (answer.compareTo("1") == 0);
-                b |= (answer.compareTo("2") == 0);
-                b |= (answer.compareTo("3") == 0);
-                b |= (answer.compareTo("4") == 0);
-
-                if (answer.toLowerCase().compareTo("back") == 0)
-                    return null;
-                else if (!b)
-                {
-                    //S.o.pl(enter 1);
-                    System.out.println("Please enter 1-4 or 'back' to continue");
-                }
-                else
-                {
-                    System.out.println("Cool... you entered 1-4");
-                }
-            }
+        System.out.println("Do you want to sort the data? (y/n)");
+        answer = scanner.nextLine().toLowerCase();
+        } while (answer.compareTo("y") == 0 && answer.compareTo("n") == 0);
+        
+        if (answer.compareTo("y") == 0)
+        {
+            do {
+            System.out.println("Please select a trait to sort by:");
+            System.out.println("1. sort by name");
+            System.out.println("2. sort by crystal structure");
+            System.out.println("3. sort by hardness");
+            System.out.println("4. sort by luster");
+            System.out.println("5. sort by color");
+            System.out.println("6. sort by cleavage");
 
 
+            ans = scanner.nextInt();
+            if (ans < 1 || ans > 6)
+                System.out.println("Please enter a number 1-6");
+            } while (ans < 1 || ans > 6);
 
-            // ask for input (which option)
+            //sort by ans
+            Sorter temp = new Sorter(mineralList);
+            temp.setSortKey(--ans);
 
+            temp.setSortKey(ans);
 
-        } while (!b);
-        return null;
+            return temp;
+        }
+        else
+        {
+            System.out.println("Have a gneiss day!");
+            return null;
+        }
     }
 
     public static void addToSet()
@@ -275,13 +210,13 @@ fileName = "Minerals.txt";
         return null;
     }
 
-    public static void toFile(MineralTree tree)
+    public static void toFile(Sorter sorted)
     {
         File myObj = new File("dump.txt");
         
         try {
             FileWriter myWriter = new FileWriter("dump.txt");
-            myWriter.write(tree.toString());
+            myWriter.write(sorted.toString());
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
@@ -290,3 +225,85 @@ fileName = "Minerals.txt";
         }
     }
 }
+
+
+
+
+
+
+
+
+/*
+
+
+do {
+            // give the user the options they can do with the data set
+
+            System.out.println("Here are the following options or enter 'back' to return:");
+            b = false;
+
+            // If there is no set yet
+            if (workingSet.isEmpty())
+            {
+                // option 1
+                System.out.println("\t1. Start new data set");
+                answer = scanner.nextLine().toLowerCase();
+
+                b |= (answer.compareTo("1") == 0);
+                b |= (answer.toLowerCase().compareTo("back") == 0);
+
+                if (answer.toLowerCase().compareTo("back") == 0)
+                    return null;
+                if (!b)
+                    System.out.println("Please enter 1 or 'back' to continue");
+                else
+                {
+                    ArrayList<MineralNode> nodeList = new ArrayList<MineralNode>();
+
+                    for (int i = 0; i < mineralList.size(); i++)
+                        nodeList.add(i, new MineralNode(mineralList.get(i)));      // Minerals to Nodes
+
+                    return new Sorter(nodeList, mineralList);
+                }
+            }
+
+            // If a set is present ...
+            else if (!workingSet.isEmpty())
+            {
+                // option 2-4
+                System.out.println("\t1. Start new data set");
+                System.out.println("\t2. Print set");
+                System.out.println("\t3. Add to set");
+                System.out.println("\t4. Remove from set");
+                answer = scanner.nextLine().toLowerCase();
+
+                b |= (answer.toLowerCase().compareTo("back") == 0);
+                b |= (answer.compareTo("1") == 0);
+                b |= (answer.compareTo("2") == 0);
+                b |= (answer.compareTo("3") == 0);
+                b |= (answer.compareTo("4") == 0);
+
+                if (answer.toLowerCase().compareTo("back") == 0)
+                    return null;
+                else if (!b)
+                {
+                    //S.o.pl(enter 1);
+                    System.out.println("Please enter 1-4 or 'back' to continue");
+                }
+                else
+                {
+                    System.out.println("Cool... you entered 1-4");
+                }
+            }
+
+
+
+            // ask for input (which option)
+
+
+        } while (!b);
+        return null;
+
+
+
+        */

@@ -123,7 +123,22 @@ public class Mineral
         mineral.add(5, cleavage);
     }
 
-
+    public int getKeyedLength()
+    {
+        switch (mineralKey)
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 5:
+                return 1;
+            case 3:
+                return luster.getLength();
+            case 4:
+                return color.getLength();
+        }
+        return 0;
+    }
 
     public String toString()
     {
