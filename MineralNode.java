@@ -255,4 +255,3 @@ public class MineralNode
 
         return -999;
     }
-}
