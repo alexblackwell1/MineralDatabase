@@ -82,14 +82,14 @@ public class MineralNode
                 if (s1.compareTo(s2) <= 0)
                 {
                     if (lNode == null)
-                            lNode = child;
+                        lNode = child;
                     else
                         lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
-                            rNode = child;
+                        rNode = child;
                     else
                         rNode.addElement(new MineralNode(elem), key);
                 }
@@ -103,14 +103,14 @@ public class MineralNode
                 if (r1.compareTo(r2) <= 0)
                 {
                     if (lNode == null)
-                            lNode = child;
+                        lNode = child;
                     else
                         lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
-                            rNode = child;
+                        rNode = child;
                     else
                         rNode.addElement(new MineralNode(elem), key);
                 }
@@ -125,14 +125,14 @@ public class MineralNode
                 if (sl1.compareTo(sl2) <= 0)
                 {
                     if (lNode == null)
-                            lNode = child;
+                        lNode = child;
                     else
                         lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
-                            rNode = child;
+                        rNode = child;
                     else
                         rNode.addElement(new MineralNode(elem), key);
                 }
@@ -146,14 +146,14 @@ public class MineralNode
                 if (i1.compareTo(i2) <= 0)
                 {
                     if (lNode == null)
-                            lNode = child;
+                        lNode = child;
                     else
                         lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
-                            rNode = child;
+                        rNode = child;
                     else
                         rNode.addElement(new MineralNode(elem), key);
                 }
@@ -240,10 +240,17 @@ public class MineralNode
         {
             case 0:
             case 1:
+                String s1 = (String) data.returnMineralKeyedValue();
+                String s2 = (String) other.getData().returnMineralKeyedValue();
+                return s1.compareTo(s2);
             case 2:
-            case 3:
-            case 4:
+                Range r1 = (Range) data.returnMineralKeyedValue();
+                Range r2 = (Range) other.getData().returnMineralKeyedValue();
+                return r1.compareTo(r2);
             case 5:
+                Integer i1 = (Integer) data.returnMineralKeyedValue();
+                Integer i2 = (Integer) other.getData().returnMineralKeyedValue();
+                return i1.compareTo(i2);
         }
 
         return -999;

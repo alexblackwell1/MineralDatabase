@@ -12,15 +12,25 @@ public class Tree
         treeKey = 0;
         head = null;
     }
-
-    public Tree(ArrayList<MineralNode> nodeList)
+    public Tree(int key)
     {
-        this.nodeList = nodeList;
+        treeKey = key;
+        head = null;
+    }
 
-        treeKey = 0;
+    public Tree(ArrayList<Mineral> mineralList, int key)
+    {
+        treeKey = key;
+
+        for (int i = 0; i < mineralList.size(); i++)
+        {
+            MineralNode cur = new MineralNode(mineralList.get(i), treeKey);
+            nodeList.add(cur);
+        }
+
         head = null;
 
-        formTree(0);
+        formTree(treeKey);
     }
 
     public void formTree(int key)
@@ -38,7 +48,10 @@ public class Tree
         {
             cur = nodeList.get(i);      // MineralNode
             cur.setNodeKey(treeKey);    // Sets node/mineral KEY and mineral key VALUE
+
+            head.addElement(cur, treeKey);
         }
+//System.out.println(toString());
     }
 
     // Getters and Setters

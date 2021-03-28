@@ -41,11 +41,31 @@ public class StringListSorter
 
                 // key each element on a different value
                 val = mineral.getLuster().getAt(j);
-//System.out.println(mineral+"\n\ti: "+i+" val: "+val);
+                
                 // add that mineral to LUSTER at the 1st keyed value location
                 StringListElement current = new StringListElement(val, mineral);
-                int location = findHeadOfValue(val, 0, luster.size(), luster);
-                luster.add(location, current);
+                
+                if (luster.size() < 1)
+                    luster.add(current);
+
+                else
+                {
+                    int tracer = 0;
+                    StringListElement comp = luster.get(0);
+
+//        0    1    2    3    4
+//      | AA | AB | DC | LM | ZZ |
+// RT
+
+                    // tracer progresses to equivilant value OR end of list
+                    while (tracer < luster.size()-1 && comp.compareTo(val) < 0)
+                        comp = luster.get(++tracer);
+
+                    if (tracer >= luster.size() || comp.compareTo(val) < 0)
+                        luster.add(current);
+                    else
+                        luster.add(tracer, current);
+                }
             }
         }
 
@@ -66,35 +86,55 @@ public class StringListSorter
 
                 // add that mineral to COLORS at the 1st keyed value location
                 StringListElement current = new StringListElement(val, mineral);
-                int location = findHeadOfValue(val, 0, colors.size(), colors);
-                colors.add(location, current);
+
+                if (colors.size() < 1)
+                colors.add(current);
+
+                else
+                {
+                    int tracer = 0;
+                    StringListElement comp = colors.get(0);
+
+                    // tracer progresses to equivilant value OR end of list
+                    while (tracer < colors.size()-1 && comp.compareTo(val) < 0)
+                        comp = colors.get(++tracer);
+
+                    if (tracer >= colors.size() || comp.compareTo(val) < 0)
+                        colors.add(current);
+                    else
+                        colors.add(tracer, current);
+                }
             }
         }
 
         elements = luster;          //default to LUSTER
     }
-
+ 
     public int findHeadOfValue(String target, int low, int high, ArrayList<StringListElement> list)
     {
         if (high < low)
-            return -1;
+            return 0;
 
         if (high == low)
             return 0;
         
         int mid = (high + low) / 2;
+
+        if (mid > high)
+            return 0;
 //System.out.println("low: "+low+" mid: "+ mid+" high: "+high);
         String curVal = list.get(mid).getValue();
 
-        if (curVal == target)
+        if (curVal.compareTo(target) == 0)
         {
-            while (list.get(mid-1).getValue() == target)
+            while ((mid-1) >= 0 && list.get(mid-1).getValue() == target)
                 mid--;
+            
             return mid;
         }
 
         if (curVal.compareTo(target) < 0)
-            return findHeadOfValue(target, mid, high, list);
+            return findHeadOfValue(target, mid+1, high, list);
 
         return findHeadOfValue(target, low, mid, list);
     }
@@ -108,7 +148,7 @@ public class StringListSorter
             StringListElement elem = elements.get(i);
             str += elem.getValue();
             str += "\n---\n";
-            str += elem.getMineral().toString();
+            str += elem.getMineral().toString() + "\n\n";
         }
 
         return str;
@@ -131,7 +171,7 @@ public class StringListSorter
     public void setSorterKey(int sk)
     {
         sorterKey = sk;
-        
+
         switch (sorterKey)
         {
             case 3:

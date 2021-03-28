@@ -22,4 +22,9 @@ public class StringListElement
 
     public Mineral getMineral() {return mineral;}
     public void setMineral(Mineral min) {mineral = min;}
+
+    public int compareTo(String val)
+    {
+        return value.compareTo(val);
+    }
 }

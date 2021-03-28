@@ -4,59 +4,58 @@ import java.util.List;
 public class Sorter
 {
     private StringListSorter stringLists;
-    private Tree[] sortedTrees = new Tree[4];
+    
+    private Tree name;
+    private Tree structure;
+    private Tree hardness;
+    private Tree cleavage;
 
     private int sortKey;
 
     public Sorter()
     {
         stringLists = new StringListSorter();
-        sortedTrees[0] = new Tree();     // Name = 0
-        sortedTrees[1] = new Tree();     // Structure = 1
-        sortedTrees[2] = new Tree();     // Hardness = 2
-        sortedTrees[3] = new Tree();     // Cleavage = 3
+        name = new Tree(0);         // Name = 0
+        structure = new Tree(1);    // Structure = 1
+        hardness = new Tree(2);     // Hardness = 2
+        cleavage = new Tree(5);    // Cleavage = 3
         sortKey = -1;
     }
 
     public Sorter(ArrayList<Mineral> mineralList)
     {
+        sortKey = 0;
         ArrayList<MineralNode> nodeList = new ArrayList<MineralNode>();
-        for (int i = 0; i < mineralList.size(); i++)
-        {
-            MineralNode temp = new MineralNode(mineralList.get(i));
-            nodeList.add(temp);
-        }
 
         stringLists = new StringListSorter(mineralList);
-        sortedTrees[0] = new Tree(nodeList);     // Name = 0
-        sortedTrees[1] = new Tree(nodeList);     // Structure = 1
-        sortedTrees[2] = new Tree(nodeList);     // Hardness = 2
-        sortedTrees[3] = new Tree(nodeList);     // Cleavage = 3
+        name = new Tree(mineralList, 0);        // Name = 0
+        structure = new Tree(mineralList, 1);   // Structure = 1
+        hardness = new Tree(mineralList, 2);   // Hardness = 2
+        cleavage = new Tree(mineralList, 5);    // Cleavage = 3
 
-        sortedTrees[0].setTreeKey(0);
-        sortedTrees[1].setTreeKey(1);
-        sortedTrees[2].setTreeKey(2);
-        sortedTrees[3].setTreeKey(5);
-
-        sortKey = 0;
+        
     }
 
     //Setters and Getters
 
     public int getSortKey() {return sortKey;}
-    public void setSortKey(int key) {sortKey = key;}
+    public void setSortKey(int key)
+    {
+        sortKey = key;
+        stringLists.setSorterKey(sortKey);
+    }
     public boolean isEmpty()
     {
         switch (sortKey)
         {
             case 0:
+                return name.isEmpty();
             case 1:
+                return structure.isEmpty();
             case 2:
+                return hardness.isEmpty();
             case 5:
-                if (sortKey != 5)
-                    return sortedTrees[sortKey].isEmpty();
-                else
-                    return sortedTrees[3].isEmpty();
+                return cleavage.isEmpty();
             case 3:
             case 4:
                 return stringLists.isEmpty();
@@ -66,25 +65,21 @@ public class Sorter
 
     public String toString()
     {
-        String ret = "";
         switch (sortKey)
         {
             case 0:
+                return name.toString();
             case 1:
+                return structure.toString();
             case 2:
+                return hardness.toString();
             case 5:
-                if (sortKey != 5)
-                    ret = sortedTrees[sortKey].toString();
-                else
-                    ret = sortedTrees[3].toString();
-                break;
+                return cleavage.toString();
             case 3:
             case 4:
-                ret = stringLists.toString();
-                break;
+                return stringLists.toString();
         }
-
-        return ret;
+        return "";
     }
 }
 

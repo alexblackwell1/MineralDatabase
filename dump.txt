@@ -1,115 +1,5 @@
-Name: 			Topaz
-Crystal System: Orthorhombic
-Hardness: 		8.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, YellowishBrown, Red
-Cleavage: 		1
-
-Name: 			Talc
-Crystal System: Monoclinic
-Hardness: 		1.0
-Luster: 		Vitreous, Greasy, Pearly
-Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
-Cleavage: 		1
-
-Name: 			Sulfur
-Crystal System: Orthorhombic
-Hardness: 		1.5-2.5
-Luster: 		Resinous
-Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
-Cleavage: 		1
-
-Name: 			Sulfur
-Crystal System: Orthorhombic
-Hardness: 		1.5-2.5
-Luster: 		Resinous
-Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
-Cleavage: 		1
-
-Name: 			Siderite
-Crystal System: Trigonal
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
-Cleavage: 		3
-
-Name: 			Siderite
-Crystal System: Trigonal
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
-Cleavage: 		3
-
-Name: 			Sanidine
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Pearly
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		2
-
-Name: 			Olivine
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
-Cleavage: 		2
-
-Name: 			Microcline
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
-Cleavage: 		2
-
-Name: 			Kaolinite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Earthy, Dull
-Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
-Cleavage: 		1
-
-Name: 			Gypsum
-Crystal System: Monoclinic
-Hardness: 		2.0
-Luster: 		Pearly
-Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
-Cleavage: 		3
-
-Name: 			Goehtite
-Crystal System: Orthorhombic
-Hardness: 		5.0-5.5
-Luster: 		Silky
-Color: 			Brown, Yellowish
-Cleavage: 		2
-
-Name: 			Wollastonite
-Crystal System: Triclinic
-Hardness: 		5.0
-Luster: 		Vitreous, Silky
-Color: 			White, Yellow, Gray, Red, Brown
-Cleavage: 		3
-
-Name: 			Titanite
-Crystal System: Monoclinic
-Hardness: 		5.0-5.5
-Luster: 		Adamantine, Resinous
-Color: 			ReddishBrown, Gray, Yellow, Green, Red
-Cleavage: 		3
-
-Name: 			Sulfur
-Crystal System: Orthorhombic
-Hardness: 		1.5-2.5
-Luster: 		Resinous
-Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
-Cleavage: 		1
-
-Name: 			Staurolite
-Crystal System: Monoclinic
-Hardness: 		7.0-7.5
-Luster: 		Vitreous, Dull
-Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
-Cleavage: 		1
-
+Black
+---
 Name: 			Serpentine
 Crystal System: Monoclinic
 Hardness: 		3.0-6.0
@@ -117,160 +7,8 @@ Luster: 		Greasy, Waxy
 Color: 			Green, Yellow, Black, White
 Cleavage: 		1
 
-Name: 			Quartz
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Brown, Colorless, Violet, Gray, Yellow
-Cleavage: 		1
-
-Name: 			Pyrite
-Crystal System: Isometric
-Hardness: 		6.5
-Luster: 		Metallic
-Color: 			PaleBrassYellow, Yellow
-Cleavage: 		2
-
-Name: 			Fluorite
-Crystal System: Isometric
-Hardness: 		4.0
-Luster: 		Glassy
-Color: 			White, Yellow, Green, Red, Blue
-Cleavage: 		3
-
-Name: 			Epidote
-Crystal System: Monoclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Epidote
-Crystal System: Monoclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Enstatite
-Crystal System: Orthorhombic
-Hardness: 		5.5
-Luster: 		Vitreous, Pearly
-Color: 			White, YellowishGreen, BrownGreenish, Gray
-Cleavage: 		2
-
-Name: 			Corundum
-Crystal System: Trigonal
-Hardness: 		9.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Red, Yellow, Brown, Gray
-Cleavage: 		None
-
-Name: 			Cordierite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Chlorite
-Crystal System: Monoclinic
-Hardness: 		2.0-3.0
-Luster: 		Vitreous, Pearly, Dull
-Color: 			Green, Yellow, White, Pink, Black
-Cleavage: 		1
-
-Name: 			Chalcopyrite
-Crystal System: Tetragonal
-Hardness: 		3.0-3.5
-Luster: 		Metallic
-Color: 			Brass, Yellow
-Cleavage: 		1
-
-Name: 			Quartz
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Brown, Colorless, Violet, Gray, Yellow
-Cleavage: 		1
-
-Name: 			Wollastonite
-Crystal System: Triclinic
-Hardness: 		5.0
-Luster: 		Vitreous, Silky
-Color: 			White, Yellow, Gray, Red, Brown
-Cleavage: 		3
-
-Name: 			Tremolite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Colorless, Gray, White, LightGreen
-Cleavage: 		2
-
-Name: 			Talc
-Crystal System: Monoclinic
-Hardness: 		1.0
-Luster: 		Vitreous, Greasy, Pearly
-Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
-Cleavage: 		1
-
-Name: 			Sodalite
-Crystal System: Isometric
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			Blue, White, Pink, Gray, Green
-Cleavage: 		1
-
-Name: 			Serpentine
-Crystal System: Monoclinic
-Hardness: 		3.0-6.0
-Luster: 		Greasy, Waxy
-Color: 			Green, Yellow, Black, White
-Cleavage: 		1
-
-Name: 			Sanidine
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Pearly
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		2
-
-Name: 			Rutile
-Crystal System: Tetragonal
-Hardness: 		6.0-6.5
-Luster: 		Adamantine
-Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
-Cleavage: 		1
-
-Name: 			Albite
-Crystal System: Triclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			White, GreenishGray, BluishGreen, Gray
-Cleavage: 		2
-
-Name: 			Orthoclase
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, Greenish, GreenishYellow, White, Pink
-Cleavage: 		2
-
-Name: 			Nepheline
-Crystal System: Hexagonal
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			White, Gray, BrownishGray, ReddishWhite
-Cleavage: 		1
-
-Name: 			Muscovite
-Crystal System: Monoclinic
-Hardness: 		2.0-2.5
-Luster: 		Vitreous, Glassy
-Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
-Cleavage: 		1
-
+Black
+---
 Name: 			Molybdenite
 Crystal System: Hexagonal
 Hardness: 		1.0-1.5
@@ -278,27 +16,8 @@ Luster: 		Metallic
 Color: 			Black, LeadGray, Gray, SilveryBlue
 Cleavage: 		1
 
-Name: 			Sanidine
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Pearly
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		2
-
-Name: 			Nepheline
-Crystal System: Hexagonal
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			White, Gray, BrownishGray, ReddishWhite
-Cleavage: 		1
-
-Name: 			Muscovite
-Crystal System: Monoclinic
-Hardness: 		2.0-2.5
-Luster: 		Vitreous, Glassy
-Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
-Cleavage: 		1
-
+Black
+---
 Name: 			Kyanite
 Crystal System: Triclinic
 Hardness: 		5.0-7.0
@@ -306,503 +25,8 @@ Luster: 		Vitreous, Pearly
 Color: 			Blue, White, Gray, Green, Black
 Cleavage: 		2
 
-Name: 			Kaolinite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Earthy, Dull
-Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
-Cleavage: 		1
-
-Name: 			Halite
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Glassy
-Color: 			White, Clear, Blue, Pink
-Cleavage: 		3
-
-Name: 			Gypsum
-Crystal System: Monoclinic
-Hardness: 		2.0
-Luster: 		Pearly
-Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
-Cleavage: 		3
-
-Name: 			Fluorite
-Crystal System: Isometric
-Hardness: 		4.0
-Luster: 		Glassy
-Color: 			White, Yellow, Green, Red, Blue
-Cleavage: 		3
-
-Name: 			Enstatite
-Crystal System: Orthorhombic
-Hardness: 		5.5
-Luster: 		Vitreous, Pearly
-Color: 			White, YellowishGreen, BrownGreenish, Gray
-Cleavage: 		2
-
-Name: 			Dolomite
-Crystal System: Trigonal
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
-Cleavage: 		3
-
-Name: 			Dolomite
-Crystal System: Trigonal
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
-Cleavage: 		3
-
-Name: 			Cordierite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Chlorite
-Crystal System: Monoclinic
-Hardness: 		2.0-3.0
-Luster: 		Vitreous, Pearly, Dull
-Color: 			Green, Yellow, White, Pink, Black
-Cleavage: 		1
-
-Name: 			Calcite
-Crystal System: Trigonal
-Hardness: 		3.0
-Luster: 		Glassy
-Color: 			Colorless, White, Pink, Yellow, Brown
-Cleavage: 		3
-
-Name: 			Calcite
-Crystal System: Trigonal
-Hardness: 		3.0
-Luster: 		Glassy
-Color: 			Colorless, White, Pink, Yellow, Brown
-Cleavage: 		3
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Beryl
-Crystal System: Hexagonal
-Hardness: 		7.5-8.0
-Luster: 		Resinous, Vitreous
-Color: 			Green, Blue, Yellow, Colorless, Pink
-Cleavage: 		1
-
-Name: 			Barite
-Crystal System: Orthorhombic
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
-Cleavage: 		3
-
-Name: 			Barite
-Crystal System: Orthorhombic
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
-Cleavage: 		3
-
-Name: 			Arsenopyrite
-Crystal System: Monoclinic
-Hardness: 		5.0
-Luster: 		Metallic
-Color: 			TinWhite, LightSteelGray
-Cleavage: 		1
-
-Name: 			Aragonite
-Crystal System: Orthorhombic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		1
-
-Name: 			Aragonite
-Crystal System: Orthorhombic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		1
-
-Name: 			Aragonite
-Crystal System: Orthorhombic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		1
-
-Name: 			Anorthite
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, GrayWhite, Red, ReddishGray
-Cleavage: 		2
-
-Name: 			Titanite
-Crystal System: Monoclinic
-Hardness: 		5.0-5.5
-Luster: 		Adamantine, Resinous
-Color: 			ReddishBrown, Gray, Yellow, Green, Red
-Cleavage: 		3
-
-Name: 			Staurolite
-Crystal System: Monoclinic
-Hardness: 		7.0-7.5
-Luster: 		Vitreous, Dull
-Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
-Cleavage: 		1
-
-Name: 			Zircon
-Crystal System: Tetragonal
-Hardness: 		7.5
-Luster: 		Adamantine
-Color: 			Brown, ReddishBrown, Colorless, Gray, Green
-Cleavage: 		1
-
-Name: 			Olivine
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
-Cleavage: 		2
-
-Name: 			Anorthite
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, GrayWhite, Red, ReddishGray
-Cleavage: 		2
-
-Name: 			Sulfur
-Crystal System: Orthorhombic
-Hardness: 		1.5-2.5
-Luster: 		Resinous
-Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
-Cleavage: 		1
-
-Name: 			Wollastonite
-Crystal System: Triclinic
-Hardness: 		5.0
-Luster: 		Vitreous, Silky
-Color: 			White, Yellow, Gray, Red, Brown
-Cleavage: 		3
-
-Name: 			Topaz
-Crystal System: Orthorhombic
-Hardness: 		8.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, YellowishBrown, Red
-Cleavage: 		1
-
-Name: 			Titanite
-Crystal System: Monoclinic
-Hardness: 		5.0-5.5
-Luster: 		Adamantine, Resinous
-Color: 			ReddishBrown, Gray, Yellow, Green, Red
-Cleavage: 		3
-
-Name: 			Hematite
-Crystal System: Trigonal
-Hardness: 		6.5
-Luster: 		Metallic
-Color: 			Red, Black, Gray
-Cleavage: 		None
-
-Name: 			Garnet
-Crystal System: Isometric
-Hardness: 		6.5-7.5
-Luster: 		Vitreous
-Color: 			Red, Orange, Green, Black, Brown, Purple
-Cleavage: 		None
-
-Name: 			Fluorite
-Crystal System: Isometric
-Hardness: 		4.0
-Luster: 		Glassy
-Color: 			White, Yellow, Green, Red, Blue
-Cleavage: 		3
-
-Name: 			Corundum
-Crystal System: Trigonal
-Hardness: 		9.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Red, Yellow, Brown, Gray
-Cleavage: 		None
-
-Name: 			Copper
-Crystal System: Isometric
-Hardness: 		2.5-3.0
-Luster: 		Metallic
-Color: 			Brown, CopperRed, LightPink, Red
-Cleavage: 		None
-
-Name: 			Garnet
-Crystal System: Isometric
-Hardness: 		6.5-7.5
-Luster: 		Vitreous
-Color: 			Red, Orange, Green, Black, Brown, Purple
-Cleavage: 		None
-
-Name: 			Bornite
-Crystal System: Orthorhombic
-Hardness: 		3.0
-Luster: 		Metallic
-Color: 			CopperRed, BronzeBrown, Purple
-Cleavage: 		1
-
-Name: 			Sodalite
-Crystal System: Isometric
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			Blue, White, Pink, Gray, Green
-Cleavage: 		1
-
-Name: 			Orthoclase
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, Greenish, GreenishYellow, White, Pink
-Cleavage: 		2
-
-Name: 			Halite
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Glassy
-Color: 			White, Clear, Blue, Pink
-Cleavage: 		3
-
-Name: 			Chlorite
-Crystal System: Monoclinic
-Hardness: 		2.0-3.0
-Luster: 		Vitreous, Pearly, Dull
-Color: 			Green, Yellow, White, Pink, Black
-Cleavage: 		1
-
-Name: 			Calcite
-Crystal System: Trigonal
-Hardness: 		3.0
-Luster: 		Glassy
-Color: 			Colorless, White, Pink, Yellow, Brown
-Cleavage: 		3
-
-Name: 			Beryl
-Crystal System: Hexagonal
-Hardness: 		7.5-8.0
-Luster: 		Resinous, Vitreous
-Color: 			Green, Blue, Yellow, Colorless, Pink
-Cleavage: 		1
-
-Name: 			Garnet
-Crystal System: Isometric
-Hardness: 		6.5-7.5
-Luster: 		Vitreous
-Color: 			Red, Orange, Green, Black, Brown, Purple
-Cleavage: 		None
-
-Name: 			Olivine
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
-Cleavage: 		2
-
-Name: 			Pyrite
-Crystal System: Isometric
-Hardness: 		6.5
-Luster: 		Metallic
-Color: 			PaleBrassYellow, Yellow
-Cleavage: 		2
-
-Name: 			Topaz
-Crystal System: Orthorhombic
-Hardness: 		8.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, YellowishBrown, Red
-Cleavage: 		1
-
-Name: 			Talc
-Crystal System: Monoclinic
-Hardness: 		1.0
-Luster: 		Vitreous, Greasy, Pearly
-Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
-Cleavage: 		1
-
-Name: 			Cordierite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Arsenopyrite
-Crystal System: Monoclinic
-Hardness: 		5.0
-Luster: 		Metallic
-Color: 			TinWhite, LightSteelGray
-Cleavage: 		1
-
-Name: 			Beryl
-Crystal System: Hexagonal
-Hardness: 		7.5-8.0
-Luster: 		Resinous, Vitreous
-Color: 			Green, Blue, Yellow, Colorless, Pink
-Cleavage: 		1
-
-Name: 			Copper
-Crystal System: Isometric
-Hardness: 		2.5-3.0
-Luster: 		Metallic
-Color: 			Brown, CopperRed, LightPink, Red
-Cleavage: 		None
-
-Name: 			Garnet
-Crystal System: Isometric
-Hardness: 		6.5-7.5
-Luster: 		Vitreous
-Color: 			Red, Orange, Green, Black, Brown, Purple
-Cleavage: 		None
-
-Name: 			Molybdenite
-Crystal System: Hexagonal
-Hardness: 		1.0-1.5
-Luster: 		Metallic
-Color: 			Black, LeadGray, Gray, SilveryBlue
-Cleavage: 		1
-
-Name: 			Tourmaline
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Greasy
-Color: 			LightPink
-Cleavage: 		None
-
-Name: 			Tremolite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Colorless, Gray, White, LightGreen
-Cleavage: 		2
-
-Name: 			Magnetite
-Crystal System: Isometric
-Hardness: 		5.5-6.0
-Luster: 		Metallic
-Color: 			GrayishBlack, IronBlack
-Cleavage: 		None
-
-Name: 			Microcline
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
-Cleavage: 		2
-
-Name: 			Orthoclase
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, Greenish, GreenishYellow, White, Pink
-Cleavage: 		2
-
-Name: 			Muscovite
-Crystal System: Monoclinic
-Hardness: 		2.0-2.5
-Luster: 		Vitreous, Glassy
-Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
-Cleavage: 		1
-
-Name: 			Olivine
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
-Cleavage: 		2
-
-Name: 			Orthoclase
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, Greenish, GreenishYellow, White, Pink
-Cleavage: 		2
-
-Name: 			Serpentine
-Crystal System: Monoclinic
-Hardness: 		3.0-6.0
-Luster: 		Greasy, Waxy
-Color: 			Green, Yellow, Black, White
-Cleavage: 		1
-
-Name: 			Siderite
-Crystal System: Trigonal
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
-Cleavage: 		3
-
-Name: 			Titanite
-Crystal System: Monoclinic
-Hardness: 		5.0-5.5
-Luster: 		Adamantine, Resinous
-Color: 			ReddishBrown, Gray, Yellow, Green, Red
-Cleavage: 		3
-
-Name: 			Zircon
-Crystal System: Tetragonal
-Hardness: 		7.5
-Luster: 		Adamantine
-Color: 			Brown, ReddishBrown, Colorless, Gray, Green
-Cleavage: 		1
-
-Name: 			Sodalite
-Crystal System: Isometric
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			Blue, White, Pink, Gray, Green
-Cleavage: 		1
-
-Name: 			Pyrophyllite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Pearly
-Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
-Cleavage: 		1
-
-Name: 			Albite
-Crystal System: Triclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			White, GreenishGray, BluishGreen, Gray
-Cleavage: 		2
-
-Name: 			Malachite
-Crystal System: Monoclinic
-Hardness: 		3.5-4.0
-Luster: 		Silky
-Color: 			Green, DarkGreen, BlackishGreen
-Cleavage: 		2
-
-Name: 			Kyanite
-Crystal System: Triclinic
-Hardness: 		5.0-7.0
-Luster: 		Vitreous, Pearly
-Color: 			Blue, White, Gray, Green, Black
-Cleavage: 		2
-
+Black
+---
 Name: 			Ilmenite
 Crystal System: Trigonal
 Hardness: 		5.0-5.5
@@ -810,335 +34,8 @@ Luster: 		SubMetallic
 Color: 			IronBlack, Black
 Cleavage: 		None
 
-Name: 			Hornblende
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Green, GreenishBlack, DarkGreen
-Cleavage: 		2
-
-Name: 			Hornblende
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Green, GreenishBlack, DarkGreen
-Cleavage: 		2
-
-Name: 			Gypsum
-Crystal System: Monoclinic
-Hardness: 		2.0
-Luster: 		Pearly
-Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
-Cleavage: 		3
-
-Name: 			Galena
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Metallic
-Color: 			LightGray, DarkGray, Gray
-Cleavage: 		3
-
-Name: 			Fluorite
-Crystal System: Isometric
-Hardness: 		4.0
-Luster: 		Glassy
-Color: 			White, Yellow, Green, Red, Blue
-Cleavage: 		3
-
-Name: 			Diopside
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Brown, Colorless, Green, Gray
-Cleavage: 		2
-
-Name: 			Chlorite
-Crystal System: Monoclinic
-Hardness: 		2.0-3.0
-Luster: 		Vitreous, Pearly, Dull
-Color: 			Green, Yellow, White, Pink, Black
-Cleavage: 		1
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Azurite
-Crystal System: Monoclinic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Blue, LightBlue, DarkBlue
-Cleavage: 		2
-
-Name: 			Augite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.5
-Luster: 		Resinous, Vitreous
-Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
-Cleavage: 		2
-
-Name: 			Augite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.5
-Luster: 		Resinous, Vitreous
-Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
-Cleavage: 		2
-
-Name: 			Apatite
-Crystal System: Hexagonal
-Hardness: 		5.0
-Luster: 		Resinous, Vitreous
-Color: 			Blue, Brown, Colorless, Violet, Green
-Cleavage: 		1
-
-Name: 			Apatite
-Crystal System: Hexagonal
-Hardness: 		5.0
-Luster: 		Resinous, Vitreous
-Color: 			Blue, Brown, Colorless, Violet, Green
-Cleavage: 		1
-
-Name: 			Andalusite
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			DarkGreen, Gray, Brown, Red, Green
-Cleavage: 		3
-
-Name: 			Andalusite
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			DarkGreen, Gray, Brown, Red, Green
-Cleavage: 		3
-
-Name: 			Andalusite
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			DarkGreen, Gray, Brown, Red, Green
-Cleavage: 		3
-
-Name: 			Andalusite
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			DarkGreen, Gray, Brown, Red, Green
-Cleavage: 		3
-
-Name: 			Andalusite
-Crystal System: Orthorhombic
-Hardness: 		6.5-7.0
-Luster: 		Vitreous, Glassy
-Color: 			DarkGreen, Gray, Brown, Red, Green
-Cleavage: 		3
-
-Name: 			Apatite
-Crystal System: Hexagonal
-Hardness: 		5.0
-Luster: 		Resinous, Vitreous
-Color: 			Blue, Brown, Colorless, Violet, Green
-Cleavage: 		1
-
-Name: 			Apatite
-Crystal System: Hexagonal
-Hardness: 		5.0
-Luster: 		Resinous, Vitreous
-Color: 			Blue, Brown, Colorless, Violet, Green
-Cleavage: 		1
-
-Name: 			Apatite
-Crystal System: Hexagonal
-Hardness: 		5.0
-Luster: 		Resinous, Vitreous
-Color: 			Blue, Brown, Colorless, Violet, Green
-Cleavage: 		1
-
-Name: 			Aragonite
-Crystal System: Orthorhombic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		1
-
-Name: 			Aragonite
-Crystal System: Orthorhombic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		1
-
-Name: 			Microcline
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
-Cleavage: 		2
-
-Name: 			Kaolinite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Earthy, Dull
-Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
-Cleavage: 		1
-
-Name: 			Kaolinite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Earthy, Dull
-Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
-Cleavage: 		1
-
-Name: 			Magnetite
-Crystal System: Isometric
-Hardness: 		5.5-6.0
-Luster: 		Metallic
-Color: 			GrayishBlack, IronBlack
-Cleavage: 		None
-
-Name: 			Microcline
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
-Cleavage: 		2
-
-Name: 			Molybdenite
-Crystal System: Hexagonal
-Hardness: 		1.0-1.5
-Luster: 		Metallic
-Color: 			Black, LeadGray, Gray, SilveryBlue
-Cleavage: 		1
-
-Name: 			Muscovite
-Crystal System: Monoclinic
-Hardness: 		2.0-2.5
-Luster: 		Vitreous, Glassy
-Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
-Cleavage: 		1
-
-Name: 			Nepheline
-Crystal System: Hexagonal
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			White, Gray, BrownishGray, ReddishWhite
-Cleavage: 		1
-
-Name: 			Anorthite
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, GrayWhite, Red, ReddishGray
-Cleavage: 		2
-
-Name: 			Talc
-Crystal System: Monoclinic
-Hardness: 		1.0
-Luster: 		Vitreous, Greasy, Pearly
-Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
-Cleavage: 		1
-
-Name: 			Pyrophyllite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Pearly
-Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
-Cleavage: 		1
-
-Name: 			Pyrophyllite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Pearly
-Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
-Cleavage: 		1
-
-Name: 			Quartz
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Brown, Colorless, Violet, Gray, Yellow
-Cleavage: 		1
-
-Name: 			Sanidine
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Pearly
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		2
-
-Name: 			Siderite
-Crystal System: Trigonal
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
-Cleavage: 		3
-
-Name: 			Sillimanite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
-Cleavage: 		1
-
-Name: 			Sillimanite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
-Cleavage: 		1
-
-Name: 			Sodalite
-Crystal System: Isometric
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			Blue, White, Pink, Gray, Green
-Cleavage: 		1
-
-Name: 			Zircon
-Crystal System: Tetragonal
-Hardness: 		7.5
-Luster: 		Adamantine
-Color: 			Brown, ReddishBrown, Colorless, Gray, Green
-Cleavage: 		1
-
-Name: 			Titanite
-Crystal System: Monoclinic
-Hardness: 		5.0-5.5
-Luster: 		Adamantine, Resinous
-Color: 			ReddishBrown, Gray, Yellow, Green, Red
-Cleavage: 		3
-
-Name: 			Tremolite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Colorless, Gray, White, LightGreen
-Cleavage: 		2
-
-Name: 			Wollastonite
-Crystal System: Triclinic
-Hardness: 		5.0
-Luster: 		Vitreous, Silky
-Color: 			White, Yellow, Gray, Red, Brown
-Cleavage: 		3
-
-Name: 			Albite
-Crystal System: Triclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			White, GreenishGray, BluishGreen, Gray
-Cleavage: 		2
-
-Name: 			Kyanite
-Crystal System: Triclinic
-Hardness: 		5.0-7.0
-Luster: 		Vitreous, Pearly
-Color: 			Blue, White, Gray, Green, Black
-Cleavage: 		2
-
+Black
+---
 Name: 			Hematite
 Crystal System: Trigonal
 Hardness: 		6.5
@@ -1146,6 +43,8 @@ Luster: 		Metallic
 Color: 			Red, Black, Gray
 Cleavage: 		None
 
+Black
+---
 Name: 			Graphite
 Crystal System: Hexagonal
 Hardness: 		1.5-2.0
@@ -1153,363 +52,8 @@ Luster: 		SubMetallic
 Color: 			Black, Gray
 Cleavage: 		1
 
-Name: 			Glaucophane
-Crystal System: Monoclinic
-Hardness: 		6.0-6.5
-Luster: 		Vitreous, Pearly
-Color: 			Gray, Blue
-Cleavage: 		2
-
-Name: 			Galena
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Metallic
-Color: 			LightGray, DarkGray, Gray
-Cleavage: 		3
-
-Name: 			Epidote
-Crystal System: Monoclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Enstatite
-Crystal System: Orthorhombic
-Hardness: 		5.5
-Luster: 		Vitreous, Pearly
-Color: 			White, YellowishGreen, BrownGreenish, Gray
-Cleavage: 		2
-
-Name: 			Dolomite
-Crystal System: Trigonal
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
-Cleavage: 		3
-
-Name: 			Dolomite
-Crystal System: Trigonal
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
-Cleavage: 		3
-
-Name: 			Diopside
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Brown, Colorless, Green, Gray
-Cleavage: 		2
-
-Name: 			Corundum
-Crystal System: Trigonal
-Hardness: 		9.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Red, Yellow, Brown, Gray
-Cleavage: 		None
-
-Name: 			Cordierite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Galena
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Metallic
-Color: 			LightGray, DarkGray, Gray
-Cleavage: 		3
-
-Name: 			Malachite
-Crystal System: Monoclinic
-Hardness: 		3.5-4.0
-Luster: 		Silky
-Color: 			Green, DarkGreen, BlackishGreen
-Cleavage: 		2
-
-Name: 			Hornblende
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Green, GreenishBlack, DarkGreen
-Cleavage: 		2
-
-Name: 			Staurolite
-Crystal System: Monoclinic
-Hardness: 		7.0-7.5
-Luster: 		Vitreous, Dull
-Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
-Cleavage: 		1
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Barite
-Crystal System: Orthorhombic
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
-Cleavage: 		3
-
-Name: 			Barite
-Crystal System: Orthorhombic
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
-Cleavage: 		3
-
-Name: 			Azurite
-Crystal System: Monoclinic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Blue, LightBlue, DarkBlue
-Cleavage: 		2
-
-Name: 			Azurite
-Crystal System: Monoclinic
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			Blue, LightBlue, DarkBlue
-Cleavage: 		2
-
-Name: 			Barite
-Crystal System: Orthorhombic
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
-Cleavage: 		3
-
-Name: 			Beryl
-Crystal System: Hexagonal
-Hardness: 		7.5-8.0
-Luster: 		Resinous, Vitreous
-Color: 			Green, Blue, Yellow, Colorless, Pink
-Cleavage: 		1
-
-Name: 			Beryl
-Crystal System: Hexagonal
-Hardness: 		7.5-8.0
-Luster: 		Resinous, Vitreous
-Color: 			Green, Blue, Yellow, Colorless, Pink
-Cleavage: 		1
-
-Name: 			Bornite
-Crystal System: Orthorhombic
-Hardness: 		3.0
-Luster: 		Metallic
-Color: 			CopperRed, BronzeBrown, Purple
-Cleavage: 		1
-
-Name: 			Copper
-Crystal System: Isometric
-Hardness: 		2.5-3.0
-Luster: 		Metallic
-Color: 			Brown, CopperRed, LightPink, Red
-Cleavage: 		None
-
-Name: 			Cordierite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Diopside
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Brown, Colorless, Green, Gray
-Cleavage: 		2
-
-Name: 			Dolomite
-Crystal System: Trigonal
-Hardness: 		3.5-4.0
-Luster: 		Glassy
-Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
-Cleavage: 		3
-
-Name: 			Epidote
-Crystal System: Monoclinic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
-Cleavage: 		1
-
-Name: 			Halite
-Crystal System: Isometric
-Hardness: 		2.5
-Luster: 		Glassy
-Color: 			White, Clear, Blue, Pink
-Cleavage: 		3
-
-Name: 			Kaolinite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Earthy, Dull
-Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
-Cleavage: 		1
-
-Name: 			Muscovite
-Crystal System: Monoclinic
-Hardness: 		2.0-2.5
-Luster: 		Vitreous, Glassy
-Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
-Cleavage: 		1
-
-Name: 			Nepheline
-Crystal System: Hexagonal
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			White, Gray, BrownishGray, ReddishWhite
-Cleavage: 		1
-
-Name: 			Orthoclase
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, Greenish, GreenishYellow, White, Pink
-Cleavage: 		2
-
-Name: 			Anorthite
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, GrayWhite, Red, ReddishGray
-Cleavage: 		2
-
-Name: 			Pyrophyllite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Pearly
-Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
-Cleavage: 		1
-
-Name: 			Quartz
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Brown, Colorless, Violet, Gray, Yellow
-Cleavage: 		1
-
-Name: 			Rutile
-Crystal System: Tetragonal
-Hardness: 		6.0-6.5
-Luster: 		Adamantine
-Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
-Cleavage: 		1
-
-Name: 			Sanidine
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Pearly
-Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
-Cleavage: 		2
-
-Name: 			Sillimanite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
-Cleavage: 		1
-
-Name: 			Sillimanite
-Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
-Cleavage: 		1
-
-Name: 			Zircon
-Crystal System: Tetragonal
-Hardness: 		7.5
-Luster: 		Adamantine
-Color: 			Brown, ReddishBrown, Colorless, Gray, Green
-Cleavage: 		1
-
-Name: 			Staurolite
-Crystal System: Monoclinic
-Hardness: 		7.0-7.5
-Luster: 		Vitreous, Dull
-Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
-Cleavage: 		1
-
-Name: 			Staurolite
-Crystal System: Monoclinic
-Hardness: 		7.0-7.5
-Luster: 		Vitreous, Dull
-Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
-Cleavage: 		1
-
-Name: 			Topaz
-Crystal System: Orthorhombic
-Hardness: 		8.0
-Luster: 		Vitreous, Glassy
-Color: 			Colorless, PaleBlue, YellowishBrown, Red
-Cleavage: 		1
-
-Name: 			Tremolite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Colorless, Gray, White, LightGreen
-Cleavage: 		2
-
-Name: 			Talc
-Crystal System: Monoclinic
-Hardness: 		1.0
-Luster: 		Vitreous, Greasy, Pearly
-Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
-Cleavage: 		1
-
-Name: 			Gypsum
-Crystal System: Monoclinic
-Hardness: 		2.0
-Luster: 		Pearly
-Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
-Cleavage: 		3
-
-Name: 			Chromite
-Crystal System: Isometric
-Hardness: 		5.5
-Luster: 		Metallic
-Color: 			Black, BrownishBlack
-Cleavage: 		None
-
-Name: 			Copper
-Crystal System: Isometric
-Hardness: 		2.5-3.0
-Luster: 		Metallic
-Color: 			Brown, CopperRed, LightPink, Red
-Cleavage: 		None
-
-Name: 			Corundum
-Crystal System: Trigonal
-Hardness: 		9.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Red, Yellow, Brown, Gray
-Cleavage: 		None
-
-Name: 			Diopside
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Brown, Colorless, Green, Gray
-Cleavage: 		2
-
-Name: 			Enstatite
-Crystal System: Orthorhombic
-Hardness: 		5.5
-Luster: 		Vitreous, Pearly
-Color: 			White, YellowishGreen, BrownGreenish, Gray
-Cleavage: 		2
-
+Black
+---
 Name: 			Garnet
 Crystal System: Isometric
 Hardness: 		6.5-7.5
@@ -1517,146 +61,8 @@ Luster: 		Vitreous
 Color: 			Red, Orange, Green, Black, Brown, Purple
 Cleavage: 		None
 
-Name: 			Goehtite
-Crystal System: Orthorhombic
-Hardness: 		5.0-5.5
-Luster: 		Silky
-Color: 			Brown, Yellowish
-Cleavage: 		2
-
-Name: 			Hornblende
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Green, GreenishBlack, DarkGreen
-Cleavage: 		2
-
-Name: 			Pyrophyllite
-Crystal System: Triclinic
-Hardness: 		1.5-2.0
-Luster: 		Pearly
-Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
-Cleavage: 		1
-
-Name: 			Quartz
-Crystal System: Trigonal
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Brown, Colorless, Violet, Gray, Yellow
-Cleavage: 		1
-
-Name: 			Rutile
-Crystal System: Tetragonal
-Hardness: 		6.0-6.5
-Luster: 		Adamantine
-Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
-Cleavage: 		1
-
-Name: 			Siderite
-Crystal System: Trigonal
-Hardness: 		3.0-3.5
-Luster: 		Glassy
-Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
-Cleavage: 		3
-
-Name: 			Zircon
-Crystal System: Tetragonal
-Hardness: 		7.5
-Luster: 		Adamantine
-Color: 			Brown, ReddishBrown, Colorless, Gray, Green
-Cleavage: 		1
-
-Name: 			Tremolite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.0
-Luster: 		Vitreous, Pearly
-Color: 			Brown, Colorless, Gray, White, LightGreen
-Cleavage: 		2
-
-Name: 			Wollastonite
-Crystal System: Triclinic
-Hardness: 		5.0
-Luster: 		Vitreous, Silky
-Color: 			White, Yellow, Gray, Red, Brown
-Cleavage: 		3
-
-Name: 			Sphalerite
-Crystal System: Isometric
-Hardness: 		3.5-4.0
-Luster: 		Greasy
-Color: 			Brown
-Cleavage: 		3
-
-Name: 			Gypsum
-Crystal System: Monoclinic
-Hardness: 		2.0
-Luster: 		Pearly
-Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
-Cleavage: 		3
-
-Name: 			Calcite
-Crystal System: Trigonal
-Hardness: 		3.0
-Luster: 		Glassy
-Color: 			Colorless, White, Pink, Yellow, Brown
-Cleavage: 		3
-
-Name: 			Calcite
-Crystal System: Trigonal
-Hardness: 		3.0
-Luster: 		Glassy
-Color: 			Colorless, White, Pink, Yellow, Brown
-Cleavage: 		3
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Biotite
-Crystal System: Monoclinic
-Hardness: 		2.5-3.0
-Luster: 		Vitreous, Pearly
-Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
-Cleavage: 		1
-
-Name: 			Bornite
-Crystal System: Orthorhombic
-Hardness: 		3.0
-Luster: 		Metallic
-Color: 			CopperRed, BronzeBrown, Purple
-Cleavage: 		1
-
-Name: 			Chalcopyrite
-Crystal System: Tetragonal
-Hardness: 		3.0-3.5
-Luster: 		Metallic
-Color: 			Brass, Yellow
-Cleavage: 		1
-
-Name: 			Chromite
-Crystal System: Isometric
-Hardness: 		5.5
-Luster: 		Metallic
-Color: 			Black, BrownishBlack
-Cleavage: 		None
-
-Name: 			Corundum
-Crystal System: Trigonal
-Hardness: 		9.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Red, Yellow, Brown, Gray
-Cleavage: 		None
-
-Name: 			Diopside
-Crystal System: Monoclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			Blue, Brown, Colorless, Green, Gray
-Cleavage: 		2
-
+Black
+---
 Name: 			Epidote
 Crystal System: Monoclinic
 Hardness: 		7.0
@@ -1664,6 +70,89 @@ Luster: 		Vitreous, Glassy
 Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
 Cleavage: 		1
 
+Black
+---
+Name: 			Chromite
+Crystal System: Isometric
+Hardness: 		5.5
+Luster: 		Metallic
+Color: 			Black, BrownishBlack
+Cleavage: 		None
+
+Black
+---
+Name: 			Chlorite
+Crystal System: Monoclinic
+Hardness: 		2.0-3.0
+Luster: 		Vitreous, Pearly, Dull
+Color: 			Green, Yellow, White, Pink, Black
+Cleavage: 		1
+
+Black
+---
+Name: 			Augite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.5
+Luster: 		Resinous, Vitreous
+Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
+Cleavage: 		2
+
+Black
+---
+Name: 			Actinolite
+Crystal System: Monoclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Glassy
+Color: 			Green, GreenBlack, GrayGreen, Black
+Cleavage: 		2
+
+BlackishBrown
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+BlackishGreen
+---
+Name: 			Malachite
+Crystal System: Monoclinic
+Hardness: 		3.5-4.0
+Luster: 		Silky
+Color: 			Green, DarkGreen, BlackishGreen
+Cleavage: 		2
+
+BloodRed
+---
+Name: 			Rutile
+Crystal System: Tetragonal
+Hardness: 		6.0-6.5
+Luster: 		Adamantine
+Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
+Cleavage: 		1
+
+Blue
+---
+Name: 			Sodalite
+Crystal System: Isometric
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			Blue, White, Pink, Gray, Green
+Cleavage: 		1
+
+Blue
+---
+Name: 			Kyanite
+Crystal System: Triclinic
+Hardness: 		5.0-7.0
+Luster: 		Vitreous, Pearly
+Color: 			Blue, White, Gray, Green, Black
+Cleavage: 		2
+
+Blue
+---
 Name: 			Halite
 Crystal System: Isometric
 Hardness: 		2.5
@@ -1671,13 +160,89 @@ Luster: 		Glassy
 Color: 			White, Clear, Blue, Pink
 Cleavage: 		3
 
-Name: 			Microcline
-Crystal System: Triclinic
-Hardness: 		6.0
-Luster: 		Vitreous, Glassy
-Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Blue
+---
+Name: 			Glaucophane
+Crystal System: Monoclinic
+Hardness: 		6.0-6.5
+Luster: 		Vitreous, Pearly
+Color: 			Gray, Blue
 Cleavage: 		2
 
+Blue
+---
+Name: 			Fluorite
+Crystal System: Isometric
+Hardness: 		4.0
+Luster: 		Glassy
+Color: 			White, Yellow, Green, Red, Blue
+Cleavage: 		3
+
+Blue
+---
+Name: 			Diopside
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Brown, Colorless, Green, Gray
+Cleavage: 		2
+
+Blue
+---
+Name: 			Corundum
+Crystal System: Trigonal
+Hardness: 		9.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Red, Yellow, Brown, Gray
+Cleavage: 		None
+
+Blue
+---
+Name: 			Beryl
+Crystal System: Hexagonal
+Hardness: 		7.5-8.0
+Luster: 		Resinous, Vitreous
+Color: 			Green, Blue, Yellow, Colorless, Pink
+Cleavage: 		1
+
+Blue
+---
+Name: 			Azurite
+Crystal System: Monoclinic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Blue, LightBlue, DarkBlue
+Cleavage: 		2
+
+Blue
+---
+Name: 			Apatite
+Crystal System: Hexagonal
+Hardness: 		5.0
+Luster: 		Resinous, Vitreous
+Color: 			Blue, Brown, Colorless, Violet, Green
+Cleavage: 		1
+
+Bluish
+---
+Name: 			Sillimanite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Cleavage: 		1
+
+Bluish
+---
+Name: 			Rutile
+Crystal System: Tetragonal
+Hardness: 		6.0-6.5
+Luster: 		Adamantine
+Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
+Cleavage: 		1
+
+BluishGreen
+---
 Name: 			Albite
 Crystal System: Triclinic
 Hardness: 		7.0
@@ -1685,6 +250,26 @@ Luster: 		Vitreous, Glassy
 Color: 			White, GreenishGray, BluishGreen, Gray
 Cleavage: 		2
 
+BluishGreen
+---
+Name: 			Microcline
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Cleavage: 		2
+
+Brass
+---
+Name: 			Chalcopyrite
+Crystal System: Tetragonal
+Hardness: 		3.0-3.5
+Luster: 		Metallic
+Color: 			Brass, Yellow
+Cleavage: 		1
+
+Bronze
+---
 Name: 			Pyrrhotite
 Crystal System: Monoclinic
 Hardness: 		3.5-4.0
@@ -1692,48 +277,98 @@ Luster: 		Metallic
 Color: 			Bronze
 Cleavage: 		2
 
-Name: 			Rutile
-Crystal System: Tetragonal
-Hardness: 		6.0-6.5
-Luster: 		Adamantine
-Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
-Cleavage: 		1
-
-Name: 			Sillimanite
+BronzeBrown
+---
+Name: 			Bornite
 Crystal System: Orthorhombic
-Hardness: 		7.0
-Luster: 		Vitreous, Glassy
-Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Hardness: 		3.0
+Luster: 		Metallic
+Color: 			CopperRed, BronzeBrown, Purple
 Cleavage: 		1
 
-Name: 			Sodalite
-Crystal System: Isometric
-Hardness: 		6.0
-Luster: 		Vitreous, Greasy
-Color: 			Blue, White, Pink, Gray, Green
-Cleavage: 		1
-
-Name: 			Kyanite
+Brown
+---
+Name: 			Wollastonite
 Crystal System: Triclinic
-Hardness: 		5.0-7.0
-Luster: 		Vitreous, Pearly
-Color: 			Blue, White, Gray, Green, Black
-Cleavage: 		2
-
-Name: 			Glaucophane
-Crystal System: Monoclinic
-Hardness: 		6.0-6.5
-Luster: 		Vitreous, Pearly
-Color: 			Gray, Blue
-Cleavage: 		2
-
-Name: 			Fluorite
-Crystal System: Isometric
-Hardness: 		4.0
-Luster: 		Glassy
-Color: 			White, Yellow, Green, Red, Blue
+Hardness: 		5.0
+Luster: 		Vitreous, Silky
+Color: 			White, Yellow, Gray, Red, Brown
 Cleavage: 		3
 
+Brown
+---
+Name: 			Tremolite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Colorless, Gray, White, LightGreen
+Cleavage: 		2
+
+Brown
+---
+Name: 			Sphalerite
+Crystal System: Isometric
+Hardness: 		3.5-4.0
+Luster: 		Greasy
+Color: 			Brown
+Cleavage: 		3
+
+Brown
+---
+Name: 			Zircon
+Crystal System: Tetragonal
+Hardness: 		7.5
+Luster: 		Adamantine
+Color: 			Brown, ReddishBrown, Colorless, Gray, Green
+Cleavage: 		1
+
+Brown
+---
+Name: 			Siderite
+Crystal System: Trigonal
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
+Cleavage: 		3
+
+Brown
+---
+Name: 			Quartz
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Brown, Colorless, Violet, Gray, Yellow
+Cleavage: 		1
+
+Brown
+---
+Name: 			Hornblende
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Green, GreenishBlack, DarkGreen
+Cleavage: 		2
+
+Brown
+---
+Name: 			Gypsum
+Crystal System: Monoclinic
+Hardness: 		2.0
+Luster: 		Pearly
+Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
+Cleavage: 		3
+
+Brown
+---
+Name: 			Goehtite
+Crystal System: Orthorhombic
+Hardness: 		5.0-5.5
+Luster: 		Silky
+Color: 			Brown, Yellowish
+Cleavage: 		2
+
+Brown
+---
 Name: 			Garnet
 Crystal System: Isometric
 Hardness: 		6.5-7.5
@@ -1741,20 +376,98 @@ Luster: 		Vitreous
 Color: 			Red, Orange, Green, Black, Brown, Purple
 Cleavage: 		None
 
-Name: 			Graphite
-Crystal System: Hexagonal
-Hardness: 		1.5-2.0
-Luster: 		SubMetallic
-Color: 			Black, Gray
-Cleavage: 		1
+Brown
+---
+Name: 			Diopside
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Brown, Colorless, Green, Gray
+Cleavage: 		2
 
-Name: 			Hematite
+Brown
+---
+Name: 			Corundum
 Crystal System: Trigonal
-Hardness: 		6.5
-Luster: 		Metallic
-Color: 			Red, Black, Gray
+Hardness: 		9.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Red, Yellow, Brown, Gray
 Cleavage: 		None
 
+Brown
+---
+Name: 			Copper
+Crystal System: Isometric
+Hardness: 		2.5-3.0
+Luster: 		Metallic
+Color: 			Brown, CopperRed, LightPink, Red
+Cleavage: 		None
+
+Brown
+---
+Name: 			Calcite
+Crystal System: Trigonal
+Hardness: 		3.0
+Luster: 		Glassy
+Color: 			Colorless, White, Pink, Yellow, Brown
+Cleavage: 		3
+
+Brown
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+Brown
+---
+Name: 			Apatite
+Crystal System: Hexagonal
+Hardness: 		5.0
+Luster: 		Resinous, Vitreous
+Color: 			Blue, Brown, Colorless, Violet, Green
+Cleavage: 		1
+
+Brown
+---
+Name: 			Andalusite
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			DarkGreen, Gray, Brown, Red, Green
+Cleavage: 		3
+
+BrownGreen
+---
+Name: 			Pyrophyllite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Pearly
+Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
+Cleavage: 		1
+
+BrownGreen
+---
+Name: 			Augite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.5
+Luster: 		Resinous, Vitreous
+Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
+Cleavage: 		2
+
+BrownGreenish
+---
+Name: 			Enstatite
+Crystal System: Orthorhombic
+Hardness: 		5.5
+Luster: 		Vitreous, Pearly
+Color: 			White, YellowishGreen, BrownGreenish, Gray
+Cleavage: 		2
+
+BrownRed
+---
 Name: 			Rutile
 Crystal System: Tetragonal
 Hardness: 		6.0-6.5
@@ -1762,6 +475,341 @@ Luster: 		Adamantine
 Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
 Cleavage: 		1
 
+BrownishBlack
+---
+Name: 			Staurolite
+Crystal System: Monoclinic
+Hardness: 		7.0-7.5
+Luster: 		Vitreous, Dull
+Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
+Cleavage: 		1
+
+BrownishBlack
+---
+Name: 			Chromite
+Crystal System: Isometric
+Hardness: 		5.5
+Luster: 		Metallic
+Color: 			Black, BrownishBlack
+Cleavage: 		None
+
+BrownishGray
+---
+Name: 			Nepheline
+Crystal System: Hexagonal
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			White, Gray, BrownishGray, ReddishWhite
+Cleavage: 		1
+
+BrownishGreen
+---
+Name: 			Epidote
+Crystal System: Monoclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
+Cleavage: 		1
+
+BrownishGreenish
+---
+Name: 			Sillimanite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Cleavage: 		1
+
+BrownishWhite
+---
+Name: 			Talc
+Crystal System: Monoclinic
+Hardness: 		1.0
+Luster: 		Vitreous, Greasy, Pearly
+Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
+Cleavage: 		1
+
+BrownishWhite
+---
+Name: 			Muscovite
+Crystal System: Monoclinic
+Hardness: 		2.0-2.5
+Luster: 		Vitreous, Glassy
+Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
+Cleavage: 		1
+
+BrownishWhite
+---
+Name: 			Kaolinite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Earthy, Dull
+Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
+Cleavage: 		1
+
+BrownishWhite
+---
+Name: 			Dolomite
+Crystal System: Trigonal
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
+Cleavage: 		3
+
+BrownishWhite
+---
+Name: 			Barite
+Crystal System: Orthorhombic
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
+Cleavage: 		3
+
+BrownishYellow
+---
+Name: 			Staurolite
+Crystal System: Monoclinic
+Hardness: 		7.0-7.5
+Luster: 		Vitreous, Dull
+Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
+Cleavage: 		1
+
+BrownishYellow
+---
+Name: 			Rutile
+Crystal System: Tetragonal
+Hardness: 		6.0-6.5
+Luster: 		Adamantine
+Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
+Cleavage: 		1
+
+BrownishYellow
+---
+Name: 			Pyrophyllite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Pearly
+Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
+Cleavage: 		1
+
+Clear
+---
+Name: 			Halite
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Glassy
+Color: 			White, Clear, Blue, Pink
+Cleavage: 		3
+
+Colorless
+---
+Name: 			Tremolite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Colorless, Gray, White, LightGreen
+Cleavage: 		2
+
+Colorless
+---
+Name: 			Topaz
+Crystal System: Orthorhombic
+Hardness: 		8.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, YellowishBrown, Red
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Zircon
+Crystal System: Tetragonal
+Hardness: 		7.5
+Luster: 		Adamantine
+Color: 			Brown, ReddishBrown, Colorless, Gray, Green
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Sillimanite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Sanidine
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Pearly
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		2
+
+Colorless
+---
+Name: 			Quartz
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Brown, Colorless, Violet, Gray, Yellow
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Anorthite
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, GrayWhite, Red, ReddishGray
+Cleavage: 		2
+
+Colorless
+---
+Name: 			Orthoclase
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, Greenish, GreenishYellow, White, Pink
+Cleavage: 		2
+
+Colorless
+---
+Name: 			Gypsum
+Crystal System: Monoclinic
+Hardness: 		2.0
+Luster: 		Pearly
+Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
+Cleavage: 		3
+
+Colorless
+---
+Name: 			Diopside
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Brown, Colorless, Green, Gray
+Cleavage: 		2
+
+Colorless
+---
+Name: 			Cordierite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Calcite
+Crystal System: Trigonal
+Hardness: 		3.0
+Luster: 		Glassy
+Color: 			Colorless, White, Pink, Yellow, Brown
+Cleavage: 		3
+
+Colorless
+---
+Name: 			Beryl
+Crystal System: Hexagonal
+Hardness: 		7.5-8.0
+Luster: 		Resinous, Vitreous
+Color: 			Green, Blue, Yellow, Colorless, Pink
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Aragonite
+Crystal System: Orthorhombic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		1
+
+Colorless
+---
+Name: 			Apatite
+Crystal System: Hexagonal
+Hardness: 		5.0
+Luster: 		Resinous, Vitreous
+Color: 			Blue, Brown, Colorless, Violet, Green
+Cleavage: 		1
+
+CopperRed
+---
+Name: 			Copper
+Crystal System: Isometric
+Hardness: 		2.5-3.0
+Luster: 		Metallic
+Color: 			Brown, CopperRed, LightPink, Red
+Cleavage: 		None
+
+CopperRed
+---
+Name: 			Bornite
+Crystal System: Orthorhombic
+Hardness: 		3.0
+Luster: 		Metallic
+Color: 			CopperRed, BronzeBrown, Purple
+Cleavage: 		1
+
+DarkBlue
+---
+Name: 			Azurite
+Crystal System: Monoclinic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Blue, LightBlue, DarkBlue
+Cleavage: 		2
+
+DarkBrown
+---
+Name: 			Staurolite
+Crystal System: Monoclinic
+Hardness: 		7.0-7.5
+Luster: 		Vitreous, Dull
+Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
+Cleavage: 		1
+
+DarkBrown
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+DarkBrown
+---
+Name: 			Barite
+Crystal System: Orthorhombic
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
+Cleavage: 		3
+
+DarkBrown
+---
+Name: 			Augite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.5
+Luster: 		Resinous, Vitreous
+Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
+Cleavage: 		2
+
+DarkGray
+---
+Name: 			Galena
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Metallic
+Color: 			LightGray, DarkGray, Gray
+Cleavage: 		3
+
+DarkGreen
+---
 Name: 			Malachite
 Crystal System: Monoclinic
 Hardness: 		3.5-4.0
@@ -1769,6 +817,134 @@ Luster: 		Silky
 Color: 			Green, DarkGreen, BlackishGreen
 Cleavage: 		2
 
+DarkGreen
+---
+Name: 			Hornblende
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Green, GreenishBlack, DarkGreen
+Cleavage: 		2
+
+DarkGreen
+---
+Name: 			Andalusite
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			DarkGreen, Gray, Brown, Red, Green
+Cleavage: 		3
+
+Gray
+---
+Name: 			Wollastonite
+Crystal System: Triclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Silky
+Color: 			White, Yellow, Gray, Red, Brown
+Cleavage: 		3
+
+Gray
+---
+Name: 			Tremolite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Colorless, Gray, White, LightGreen
+Cleavage: 		2
+
+Gray
+---
+Name: 			Titanite
+Crystal System: Monoclinic
+Hardness: 		5.0-5.5
+Luster: 		Adamantine, Resinous
+Color: 			ReddishBrown, Gray, Yellow, Green, Red
+Cleavage: 		3
+
+Gray
+---
+Name: 			Zircon
+Crystal System: Tetragonal
+Hardness: 		7.5
+Luster: 		Adamantine
+Color: 			Brown, ReddishBrown, Colorless, Gray, Green
+Cleavage: 		1
+
+Gray
+---
+Name: 			Sodalite
+Crystal System: Isometric
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			Blue, White, Pink, Gray, Green
+Cleavage: 		1
+
+Gray
+---
+Name: 			Sillimanite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Cleavage: 		1
+
+Gray
+---
+Name: 			Siderite
+Crystal System: Trigonal
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
+Cleavage: 		3
+
+Gray
+---
+Name: 			Sanidine
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Pearly
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		2
+
+Gray
+---
+Name: 			Quartz
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Brown, Colorless, Violet, Gray, Yellow
+Cleavage: 		1
+
+Gray
+---
+Name: 			Albite
+Crystal System: Triclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			White, GreenishGray, BluishGreen, Gray
+Cleavage: 		2
+
+Gray
+---
+Name: 			Nepheline
+Crystal System: Hexagonal
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			White, Gray, BrownishGray, ReddishWhite
+Cleavage: 		1
+
+Gray
+---
+Name: 			Muscovite
+Crystal System: Monoclinic
+Hardness: 		2.0-2.5
+Luster: 		Vitreous, Glassy
+Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
+Cleavage: 		1
+
+Gray
+---
 Name: 			Molybdenite
 Crystal System: Hexagonal
 Hardness: 		1.0-1.5
@@ -1776,13 +952,17 @@ Luster: 		Metallic
 Color: 			Black, LeadGray, Gray, SilveryBlue
 Cleavage: 		1
 
-Name: 			Serpentine
-Crystal System: Monoclinic
-Hardness: 		3.0-6.0
-Luster: 		Greasy, Waxy
-Color: 			Green, Yellow, Black, White
-Cleavage: 		1
+Gray
+---
+Name: 			Microcline
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Cleavage: 		2
 
+Gray
+---
 Name: 			Kyanite
 Crystal System: Triclinic
 Hardness: 		5.0-7.0
@@ -1790,13 +970,323 @@ Luster: 		Vitreous, Pearly
 Color: 			Blue, White, Gray, Green, Black
 Cleavage: 		2
 
-Name: 			Ilmenite
+Gray
+---
+Name: 			Hematite
 Crystal System: Trigonal
-Hardness: 		5.0-5.5
-Luster: 		SubMetallic
-Color: 			IronBlack, Black
+Hardness: 		6.5
+Luster: 		Metallic
+Color: 			Red, Black, Gray
 Cleavage: 		None
 
+Gray
+---
+Name: 			Graphite
+Crystal System: Hexagonal
+Hardness: 		1.5-2.0
+Luster: 		SubMetallic
+Color: 			Black, Gray
+Cleavage: 		1
+
+Gray
+---
+Name: 			Glaucophane
+Crystal System: Monoclinic
+Hardness: 		6.0-6.5
+Luster: 		Vitreous, Pearly
+Color: 			Gray, Blue
+Cleavage: 		2
+
+Gray
+---
+Name: 			Galena
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Metallic
+Color: 			LightGray, DarkGray, Gray
+Cleavage: 		3
+
+Gray
+---
+Name: 			Epidote
+Crystal System: Monoclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
+Cleavage: 		1
+
+Gray
+---
+Name: 			Enstatite
+Crystal System: Orthorhombic
+Hardness: 		5.5
+Luster: 		Vitreous, Pearly
+Color: 			White, YellowishGreen, BrownGreenish, Gray
+Cleavage: 		2
+
+Gray
+---
+Name: 			Dolomite
+Crystal System: Trigonal
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
+Cleavage: 		3
+
+Gray
+---
+Name: 			Dolomite
+Crystal System: Trigonal
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
+Cleavage: 		3
+
+Gray
+---
+Name: 			Diopside
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Brown, Colorless, Green, Gray
+Cleavage: 		2
+
+Gray
+---
+Name: 			Corundum
+Crystal System: Trigonal
+Hardness: 		9.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Red, Yellow, Brown, Gray
+Cleavage: 		None
+
+Gray
+---
+Name: 			Cordierite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
+Cleavage: 		1
+
+Gray
+---
+Name: 			Aragonite
+Crystal System: Orthorhombic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		1
+
+Gray
+---
+Name: 			Andalusite
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			DarkGreen, Gray, Brown, Red, Green
+Cleavage: 		3
+
+GrayGreen
+---
+Name: 			Sillimanite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Bluish, BrownishGreenish, Colorless, Gray, GrayGreen
+Cleavage: 		1
+
+GrayGreen
+---
+Name: 			Pyrophyllite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Pearly
+Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
+Cleavage: 		1
+
+GrayGreen
+---
+Name: 			Actinolite
+Crystal System: Monoclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Glassy
+Color: 			Green, GreenBlack, GrayGreen, Black
+Cleavage: 		2
+
+GrayWhite
+---
+Name: 			Talc
+Crystal System: Monoclinic
+Hardness: 		1.0
+Luster: 		Vitreous, Greasy, Pearly
+Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
+Cleavage: 		1
+
+GrayWhite
+---
+Name: 			Pyrophyllite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Pearly
+Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
+Cleavage: 		1
+
+GrayWhite
+---
+Name: 			Anorthite
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, GrayWhite, Red, ReddishGray
+Cleavage: 		2
+
+GrayishBlack
+---
+Name: 			Magnetite
+Crystal System: Isometric
+Hardness: 		5.5-6.0
+Luster: 		Metallic
+Color: 			GrayishBlack, IronBlack
+Cleavage: 		None
+
+GrayishGreen
+---
+Name: 			Kaolinite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Earthy, Dull
+Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
+Cleavage: 		1
+
+GrayishWhite
+---
+Name: 			Kaolinite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Earthy, Dull
+Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
+Cleavage: 		1
+
+GrayishWhite
+---
+Name: 			Barite
+Crystal System: Orthorhombic
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
+Cleavage: 		3
+
+GrayishYellow
+---
+Name: 			Microcline
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Cleavage: 		2
+
+Green
+---
+Name: 			Titanite
+Crystal System: Monoclinic
+Hardness: 		5.0-5.5
+Luster: 		Adamantine, Resinous
+Color: 			ReddishBrown, Gray, Yellow, Green, Red
+Cleavage: 		3
+
+Green
+---
+Name: 			Zircon
+Crystal System: Tetragonal
+Hardness: 		7.5
+Luster: 		Adamantine
+Color: 			Brown, ReddishBrown, Colorless, Gray, Green
+Cleavage: 		1
+
+Green
+---
+Name: 			Sodalite
+Crystal System: Isometric
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			Blue, White, Pink, Gray, Green
+Cleavage: 		1
+
+Green
+---
+Name: 			Serpentine
+Crystal System: Monoclinic
+Hardness: 		3.0-6.0
+Luster: 		Greasy, Waxy
+Color: 			Green, Yellow, Black, White
+Cleavage: 		1
+
+Green
+---
+Name: 			Microcline
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Cleavage: 		2
+
+Green
+---
+Name: 			Malachite
+Crystal System: Monoclinic
+Hardness: 		3.5-4.0
+Luster: 		Silky
+Color: 			Green, DarkGreen, BlackishGreen
+Cleavage: 		2
+
+Green
+---
+Name: 			Kyanite
+Crystal System: Triclinic
+Hardness: 		5.0-7.0
+Luster: 		Vitreous, Pearly
+Color: 			Blue, White, Gray, Green, Black
+Cleavage: 		2
+
+Green
+---
+Name: 			Hornblende
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Green, GreenishBlack, DarkGreen
+Cleavage: 		2
+
+Green
+---
+Name: 			Garnet
+Crystal System: Isometric
+Hardness: 		6.5-7.5
+Luster: 		Vitreous
+Color: 			Red, Orange, Green, Black, Brown, Purple
+Cleavage: 		None
+
+Green
+---
+Name: 			Fluorite
+Crystal System: Isometric
+Hardness: 		4.0
+Luster: 		Glassy
+Color: 			White, Yellow, Green, Red, Blue
+Cleavage: 		3
+
+Green
+---
+Name: 			Diopside
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Brown, Colorless, Green, Gray
+Cleavage: 		2
+
+Green
+---
 Name: 			Chlorite
 Crystal System: Monoclinic
 Hardness: 		2.0-3.0
@@ -1804,6 +1294,17 @@ Luster: 		Vitreous, Pearly, Dull
 Color: 			Green, Yellow, White, Pink, Black
 Cleavage: 		1
 
+Green
+---
+Name: 			Beryl
+Crystal System: Hexagonal
+Hardness: 		7.5-8.0
+Luster: 		Resinous, Vitreous
+Color: 			Green, Blue, Yellow, Colorless, Pink
+Cleavage: 		1
+
+Green
+---
 Name: 			Augite
 Crystal System: Monoclinic
 Hardness: 		5.0-6.5
@@ -1811,24 +1312,1074 @@ Luster: 		Resinous, Vitreous
 Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
 Cleavage: 		2
 
-Name: 			Augite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.5
+Green
+---
+Name: 			Apatite
+Crystal System: Hexagonal
+Hardness: 		5.0
 Luster: 		Resinous, Vitreous
-Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
-Cleavage: 		2
+Color: 			Blue, Brown, Colorless, Violet, Green
+Cleavage: 		1
 
-Name: 			Augite
-Crystal System: Monoclinic
-Hardness: 		5.0-6.5
-Luster: 		Resinous, Vitreous
-Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
-Cleavage: 		2
+Green
+---
+Name: 			Andalusite
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			DarkGreen, Gray, Brown, Red, Green
+Cleavage: 		3
 
+Green
+---
 Name: 			Actinolite
 Crystal System: Monoclinic
 Hardness: 		5.0
 Luster: 		Vitreous, Glassy
 Color: 			Green, GreenBlack, GrayGreen, Black
 Cleavage: 		2
+
+GreenBlack
+---
+Name: 			Actinolite
+Crystal System: Monoclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Glassy
+Color: 			Green, GreenBlack, GrayGreen, Black
+Cleavage: 		2
+
+Greenish
+---
+Name: 			Pyrophyllite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Pearly
+Color: 			BrownGreen, BrownishYellow, Greenish, GrayGreen, GrayWhite
+Cleavage: 		1
+
+Greenish
+---
+Name: 			Orthoclase
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, Greenish, GreenishYellow, White, Pink
+Cleavage: 		2
+
+GreenishBlack
+---
+Name: 			Olivine
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
+Cleavage: 		2
+
+GreenishBlack
+---
+Name: 			Hornblende
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Green, GreenishBlack, DarkGreen
+Cleavage: 		2
+
+GreenishBrown
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+GreenishGray
+---
+Name: 			Siderite
+Crystal System: Trigonal
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
+Cleavage: 		3
+
+GreenishGray
+---
+Name: 			Albite
+Crystal System: Triclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			White, GreenishGray, BluishGreen, Gray
+Cleavage: 		2
+
+GreenishWhite
+---
+Name: 			Muscovite
+Crystal System: Monoclinic
+Hardness: 		2.0-2.5
+Luster: 		Vitreous, Glassy
+Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
+Cleavage: 		1
+
+GreenishWhite
+---
+Name: 			Gypsum
+Crystal System: Monoclinic
+Hardness: 		2.0
+Luster: 		Pearly
+Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
+Cleavage: 		3
+
+GreenishYellow
+---
+Name: 			Orthoclase
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, Greenish, GreenishYellow, White, Pink
+Cleavage: 		2
+
+IronBlack
+---
+Name: 			Magnetite
+Crystal System: Isometric
+Hardness: 		5.5-6.0
+Luster: 		Metallic
+Color: 			GrayishBlack, IronBlack
+Cleavage: 		None
+
+IronBlack
+---
+Name: 			Ilmenite
+Crystal System: Trigonal
+Hardness: 		5.0-5.5
+Luster: 		SubMetallic
+Color: 			IronBlack, Black
+Cleavage: 		None
+
+LeadGray
+---
+Name: 			Molybdenite
+Crystal System: Hexagonal
+Hardness: 		1.0-1.5
+Luster: 		Metallic
+Color: 			Black, LeadGray, Gray, SilveryBlue
+Cleavage: 		1
+
+LightBlue
+---
+Name: 			Azurite
+Crystal System: Monoclinic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Blue, LightBlue, DarkBlue
+Cleavage: 		2
+
+LightBrown
+---
+Name: 			Augite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.5
+Luster: 		Resinous, Vitreous
+Color: 			BrownGreen, Green, LightBrown, DarkBrown, Black
+Cleavage: 		2
+
+LightGray
+---
+Name: 			Galena
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Metallic
+Color: 			LightGray, DarkGray, Gray
+Cleavage: 		3
+
+LightGreen
+---
+Name: 			Tremolite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Colorless, Gray, White, LightGreen
+Cleavage: 		2
+
+LightPink
+---
+Name: 			Tourmaline
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Greasy
+Color: 			LightPink
+Cleavage: 		None
+
+LightPink
+---
+Name: 			Copper
+Crystal System: Isometric
+Hardness: 		2.5-3.0
+Luster: 		Metallic
+Color: 			Brown, CopperRed, LightPink, Red
+Cleavage: 		None
+
+LightSteelGray
+---
+Name: 			Arsenopyrite
+Crystal System: Monoclinic
+Hardness: 		5.0
+Luster: 		Metallic
+Color: 			TinWhite, LightSteelGray
+Cleavage: 		1
+
+OliveGreen
+---
+Name: 			Olivine
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
+Cleavage: 		2
+
+Orange
+---
+Name: 			Garnet
+Crystal System: Isometric
+Hardness: 		6.5-7.5
+Luster: 		Vitreous
+Color: 			Red, Orange, Green, Black, Brown, Purple
+Cleavage: 		None
+
+PaleBlue
+---
+Name: 			Topaz
+Crystal System: Orthorhombic
+Hardness: 		8.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, YellowishBrown, Red
+Cleavage: 		1
+
+PaleBlue
+---
+Name: 			Cordierite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
+Cleavage: 		1
+
+PaleBrassYellow
+---
+Name: 			Pyrite
+Crystal System: Isometric
+Hardness: 		6.5
+Luster: 		Metallic
+Color: 			PaleBrassYellow, Yellow
+Cleavage: 		2
+
+PaleGreen
+---
+Name: 			Talc
+Crystal System: Monoclinic
+Hardness: 		1.0
+Luster: 		Vitreous, Greasy, Pearly
+Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
+Cleavage: 		1
+
+Pink
+---
+Name: 			Sodalite
+Crystal System: Isometric
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			Blue, White, Pink, Gray, Green
+Cleavage: 		1
+
+Pink
+---
+Name: 			Orthoclase
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, Greenish, GreenishYellow, White, Pink
+Cleavage: 		2
+
+Pink
+---
+Name: 			Halite
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Glassy
+Color: 			White, Clear, Blue, Pink
+Cleavage: 		3
+
+Pink
+---
+Name: 			Chlorite
+Crystal System: Monoclinic
+Hardness: 		2.0-3.0
+Luster: 		Vitreous, Pearly, Dull
+Color: 			Green, Yellow, White, Pink, Black
+Cleavage: 		1
+
+Pink
+---
+Name: 			Calcite
+Crystal System: Trigonal
+Hardness: 		3.0
+Luster: 		Glassy
+Color: 			Colorless, White, Pink, Yellow, Brown
+Cleavage: 		3
+
+Pink
+---
+Name: 			Beryl
+Crystal System: Hexagonal
+Hardness: 		7.5-8.0
+Luster: 		Resinous, Vitreous
+Color: 			Green, Blue, Yellow, Colorless, Pink
+Cleavage: 		1
+
+Purple
+---
+Name: 			Garnet
+Crystal System: Isometric
+Hardness: 		6.5-7.5
+Luster: 		Vitreous
+Color: 			Red, Orange, Green, Black, Brown, Purple
+Cleavage: 		None
+
+Purple
+---
+Name: 			Bornite
+Crystal System: Orthorhombic
+Hardness: 		3.0
+Luster: 		Metallic
+Color: 			CopperRed, BronzeBrown, Purple
+Cleavage: 		1
+
+Red
+---
+Name: 			Wollastonite
+Crystal System: Triclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Silky
+Color: 			White, Yellow, Gray, Red, Brown
+Cleavage: 		3
+
+Red
+---
+Name: 			Topaz
+Crystal System: Orthorhombic
+Hardness: 		8.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, YellowishBrown, Red
+Cleavage: 		1
+
+Red
+---
+Name: 			Titanite
+Crystal System: Monoclinic
+Hardness: 		5.0-5.5
+Luster: 		Adamantine, Resinous
+Color: 			ReddishBrown, Gray, Yellow, Green, Red
+Cleavage: 		3
+
+Red
+---
+Name: 			Anorthite
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, GrayWhite, Red, ReddishGray
+Cleavage: 		2
+
+Red
+---
+Name: 			Hematite
+Crystal System: Trigonal
+Hardness: 		6.5
+Luster: 		Metallic
+Color: 			Red, Black, Gray
+Cleavage: 		None
+
+Red
+---
+Name: 			Garnet
+Crystal System: Isometric
+Hardness: 		6.5-7.5
+Luster: 		Vitreous
+Color: 			Red, Orange, Green, Black, Brown, Purple
+Cleavage: 		None
+
+Red
+---
+Name: 			Fluorite
+Crystal System: Isometric
+Hardness: 		4.0
+Luster: 		Glassy
+Color: 			White, Yellow, Green, Red, Blue
+Cleavage: 		3
+
+Red
+---
+Name: 			Corundum
+Crystal System: Trigonal
+Hardness: 		9.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Red, Yellow, Brown, Gray
+Cleavage: 		None
+
+Red
+---
+Name: 			Copper
+Crystal System: Isometric
+Hardness: 		2.5-3.0
+Luster: 		Metallic
+Color: 			Brown, CopperRed, LightPink, Red
+Cleavage: 		None
+
+Red
+---
+Name: 			Andalusite
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			DarkGreen, Gray, Brown, Red, Green
+Cleavage: 		3
+
+Reddish
+---
+Name: 			Sulfur
+Crystal System: Orthorhombic
+Hardness: 		1.5-2.5
+Luster: 		Resinous
+Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
+Cleavage: 		1
+
+ReddishBrown
+---
+Name: 			Titanite
+Crystal System: Monoclinic
+Hardness: 		5.0-5.5
+Luster: 		Adamantine, Resinous
+Color: 			ReddishBrown, Gray, Yellow, Green, Red
+Cleavage: 		3
+
+ReddishBrown
+---
+Name: 			Staurolite
+Crystal System: Monoclinic
+Hardness: 		7.0-7.5
+Luster: 		Vitreous, Dull
+Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
+Cleavage: 		1
+
+ReddishBrown
+---
+Name: 			Zircon
+Crystal System: Tetragonal
+Hardness: 		7.5
+Luster: 		Adamantine
+Color: 			Brown, ReddishBrown, Colorless, Gray, Green
+Cleavage: 		1
+
+ReddishBrown
+---
+Name: 			Olivine
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
+Cleavage: 		2
+
+ReddishGray
+---
+Name: 			Anorthite
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, GrayWhite, Red, ReddishGray
+Cleavage: 		2
+
+ReddishWhite
+---
+Name: 			Sanidine
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Pearly
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		2
+
+ReddishWhite
+---
+Name: 			Nepheline
+Crystal System: Hexagonal
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			White, Gray, BrownishGray, ReddishWhite
+Cleavage: 		1
+
+ReddishWhite
+---
+Name: 			Dolomite
+Crystal System: Trigonal
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
+Cleavage: 		3
+
+ReddishWhite
+---
+Name: 			Aragonite
+Crystal System: Orthorhombic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		1
+
+SilverWhite
+---
+Name: 			Muscovite
+Crystal System: Monoclinic
+Hardness: 		2.0-2.5
+Luster: 		Vitreous, Glassy
+Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
+Cleavage: 		1
+
+SilveryBlue
+---
+Name: 			Molybdenite
+Crystal System: Hexagonal
+Hardness: 		1.0-1.5
+Luster: 		Metallic
+Color: 			Black, LeadGray, Gray, SilveryBlue
+Cleavage: 		1
+
+TinWhite
+---
+Name: 			Arsenopyrite
+Crystal System: Monoclinic
+Hardness: 		5.0
+Luster: 		Metallic
+Color: 			TinWhite, LightSteelGray
+Cleavage: 		1
+
+Violet
+---
+Name: 			Rutile
+Crystal System: Tetragonal
+Hardness: 		6.0-6.5
+Luster: 		Adamantine
+Color: 			BloodRed, Bluish, BrownishYellow, BrownRed, Violet
+Cleavage: 		1
+
+Violet
+---
+Name: 			Quartz
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Brown, Colorless, Violet, Gray, Yellow
+Cleavage: 		1
+
+Violet
+---
+Name: 			Cordierite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
+Cleavage: 		1
+
+Violet
+---
+Name: 			Apatite
+Crystal System: Hexagonal
+Hardness: 		5.0
+Luster: 		Resinous, Vitreous
+Color: 			Blue, Brown, Colorless, Violet, Green
+Cleavage: 		1
+
+White
+---
+Name: 			Wollastonite
+Crystal System: Triclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Silky
+Color: 			White, Yellow, Gray, Red, Brown
+Cleavage: 		3
+
+White
+---
+Name: 			Tremolite
+Crystal System: Monoclinic
+Hardness: 		5.0-6.0
+Luster: 		Vitreous, Pearly
+Color: 			Brown, Colorless, Gray, White, LightGreen
+Cleavage: 		2
+
+White
+---
+Name: 			Talc
+Crystal System: Monoclinic
+Hardness: 		1.0
+Luster: 		Vitreous, Greasy, Pearly
+Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
+Cleavage: 		1
+
+White
+---
+Name: 			Sodalite
+Crystal System: Isometric
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			Blue, White, Pink, Gray, Green
+Cleavage: 		1
+
+White
+---
+Name: 			Serpentine
+Crystal System: Monoclinic
+Hardness: 		3.0-6.0
+Luster: 		Greasy, Waxy
+Color: 			Green, Yellow, Black, White
+Cleavage: 		1
+
+White
+---
+Name: 			Sanidine
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Pearly
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		2
+
+White
+---
+Name: 			Albite
+Crystal System: Triclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			White, GreenishGray, BluishGreen, Gray
+Cleavage: 		2
+
+White
+---
+Name: 			Orthoclase
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, Greenish, GreenishYellow, White, Pink
+Cleavage: 		2
+
+White
+---
+Name: 			Nepheline
+Crystal System: Hexagonal
+Hardness: 		6.0
+Luster: 		Vitreous, Greasy
+Color: 			White, Gray, BrownishGray, ReddishWhite
+Cleavage: 		1
+
+White
+---
+Name: 			Muscovite
+Crystal System: Monoclinic
+Hardness: 		2.0-2.5
+Luster: 		Vitreous, Glassy
+Color: 			White, Gray, SilverWhite, BrownishWhite, GreenishWhite
+Cleavage: 		1
+
+White
+---
+Name: 			Kyanite
+Crystal System: Triclinic
+Hardness: 		5.0-7.0
+Luster: 		Vitreous, Pearly
+Color: 			Blue, White, Gray, Green, Black
+Cleavage: 		2
+
+White
+---
+Name: 			Halite
+Crystal System: Isometric
+Hardness: 		2.5
+Luster: 		Glassy
+Color: 			White, Clear, Blue, Pink
+Cleavage: 		3
+
+White
+---
+Name: 			Gypsum
+Crystal System: Monoclinic
+Hardness: 		2.0
+Luster: 		Pearly
+Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
+Cleavage: 		3
+
+White
+---
+Name: 			Fluorite
+Crystal System: Isometric
+Hardness: 		4.0
+Luster: 		Glassy
+Color: 			White, Yellow, Green, Red, Blue
+Cleavage: 		3
+
+White
+---
+Name: 			Enstatite
+Crystal System: Orthorhombic
+Hardness: 		5.5
+Luster: 		Vitreous, Pearly
+Color: 			White, YellowishGreen, BrownGreenish, Gray
+Cleavage: 		2
+
+White
+---
+Name: 			Dolomite
+Crystal System: Trigonal
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			White, Gray, ReddishWhite, BrownishWhite, Gray
+Cleavage: 		3
+
+White
+---
+Name: 			Chlorite
+Crystal System: Monoclinic
+Hardness: 		2.0-3.0
+Luster: 		Vitreous, Pearly, Dull
+Color: 			Green, Yellow, White, Pink, Black
+Cleavage: 		1
+
+White
+---
+Name: 			Calcite
+Crystal System: Trigonal
+Hardness: 		3.0
+Luster: 		Glassy
+Color: 			Colorless, White, Pink, Yellow, Brown
+Cleavage: 		3
+
+White
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+White
+---
+Name: 			Barite
+Crystal System: Orthorhombic
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
+Cleavage: 		3
+
+White
+---
+Name: 			Aragonite
+Crystal System: Orthorhombic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		1
+
+Wite
+---
+Name: 			Kaolinite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Earthy, Dull
+Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Wollastonite
+Crystal System: Triclinic
+Hardness: 		5.0
+Luster: 		Vitreous, Silky
+Color: 			White, Yellow, Gray, Red, Brown
+Cleavage: 		3
+
+Yellow
+---
+Name: 			Titanite
+Crystal System: Monoclinic
+Hardness: 		5.0-5.5
+Luster: 		Adamantine, Resinous
+Color: 			ReddishBrown, Gray, Yellow, Green, Red
+Cleavage: 		3
+
+Yellow
+---
+Name: 			Sulfur
+Crystal System: Orthorhombic
+Hardness: 		1.5-2.5
+Luster: 		Resinous
+Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Serpentine
+Crystal System: Monoclinic
+Hardness: 		3.0-6.0
+Luster: 		Greasy, Waxy
+Color: 			Green, Yellow, Black, White
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Quartz
+Crystal System: Trigonal
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Brown, Colorless, Violet, Gray, Yellow
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Pyrite
+Crystal System: Isometric
+Hardness: 		6.5
+Luster: 		Metallic
+Color: 			PaleBrassYellow, Yellow
+Cleavage: 		2
+
+Yellow
+---
+Name: 			Fluorite
+Crystal System: Isometric
+Hardness: 		4.0
+Luster: 		Glassy
+Color: 			White, Yellow, Green, Red, Blue
+Cleavage: 		3
+
+Yellow
+---
+Name: 			Epidote
+Crystal System: Monoclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Corundum
+Crystal System: Trigonal
+Hardness: 		9.0
+Luster: 		Vitreous, Glassy
+Color: 			Blue, Red, Yellow, Brown, Gray
+Cleavage: 		None
+
+Yellow
+---
+Name: 			Cordierite
+Crystal System: Orthorhombic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, Violet, Yellow, Gray
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Chlorite
+Crystal System: Monoclinic
+Hardness: 		2.0-3.0
+Luster: 		Vitreous, Pearly, Dull
+Color: 			Green, Yellow, White, Pink, Black
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Chalcopyrite
+Crystal System: Tetragonal
+Hardness: 		3.0-3.5
+Luster: 		Metallic
+Color: 			Brass, Yellow
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Calcite
+Crystal System: Trigonal
+Hardness: 		3.0
+Luster: 		Glassy
+Color: 			Colorless, White, Pink, Yellow, Brown
+Cleavage: 		3
+
+Yellow
+---
+Name: 			Biotite
+Crystal System: Monoclinic
+Hardness: 		2.5-3.0
+Luster: 		Vitreous, Pearly
+Color: 			DarkBrown, GreenishBrown, BlackishBrown, Yellow, White, Brown
+Cleavage: 		1
+
+Yellow
+---
+Name: 			Beryl
+Crystal System: Hexagonal
+Hardness: 		7.5-8.0
+Luster: 		Resinous, Vitreous
+Color: 			Green, Blue, Yellow, Colorless, Pink
+Cleavage: 		1
+
+YellowBrown
+---
+Name: 			Staurolite
+Crystal System: Monoclinic
+Hardness: 		7.0-7.5
+Luster: 		Vitreous, Dull
+Color: 			BrownishYellow, BrownishBlack, YellowBrown, DarkBrown, ReddishBrown
+Cleavage: 		1
+
+Yellowish
+---
+Name: 			Microcline
+Crystal System: Triclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Glassy
+Color: 			BluishGreen, Gray, Green, GrayishYellow, Yellowish
+Cleavage: 		2
+
+Yellowish
+---
+Name: 			Goehtite
+Crystal System: Orthorhombic
+Hardness: 		5.0-5.5
+Luster: 		Silky
+Color: 			Brown, Yellowish
+Cleavage: 		2
+
+YellowishBrown
+---
+Name: 			Topaz
+Crystal System: Orthorhombic
+Hardness: 		8.0
+Luster: 		Vitreous, Glassy
+Color: 			Colorless, PaleBlue, YellowishBrown, Red
+Cleavage: 		1
+
+YellowishBrown
+---
+Name: 			Sulfur
+Crystal System: Orthorhombic
+Hardness: 		1.5-2.5
+Luster: 		Resinous
+Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
+Cleavage: 		1
+
+YellowishBrown
+---
+Name: 			Siderite
+Crystal System: Trigonal
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
+Cleavage: 		3
+
+YellowishGray
+---
+Name: 			Sulfur
+Crystal System: Orthorhombic
+Hardness: 		1.5-2.5
+Luster: 		Resinous
+Color: 			Yellow, YellowishBrown, YellowishGray, Reddish
+Cleavage: 		1
+
+YellowishGray
+---
+Name: 			Siderite
+Crystal System: Trigonal
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			YellowishBrown, Brown, Gray, YellowishGray, GreenishGray
+Cleavage: 		3
+
+YellowishGreen
+---
+Name: 			Olivine
+Crystal System: Orthorhombic
+Hardness: 		6.5-7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, OliveGreen, GreenishBlack, ReddishBrown
+Cleavage: 		2
+
+YellowishGreen
+---
+Name: 			Epidote
+Crystal System: Monoclinic
+Hardness: 		7.0
+Luster: 		Vitreous, Glassy
+Color: 			YellowishGreen, BrownishGreen, Black, Yellow, Gray
+Cleavage: 		1
+
+YellowishGreen
+---
+Name: 			Enstatite
+Crystal System: Orthorhombic
+Hardness: 		5.5
+Luster: 		Vitreous, Pearly
+Color: 			White, YellowishGreen, BrownGreenish, Gray
+Cleavage: 		2
+
+YellowishWhite
+---
+Name: 			Talc
+Crystal System: Monoclinic
+Hardness: 		1.0
+Luster: 		Vitreous, Greasy, Pearly
+Color: 			PaleGreen, White, GrayWhite, YellowishWhite, BrownishWhite
+Cleavage: 		1
+
+YellowishWhite
+---
+Name: 			Sanidine
+Crystal System: Monoclinic
+Hardness: 		6.0
+Luster: 		Vitreous, Pearly
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		2
+
+YellowishWhite
+---
+Name: 			Kaolinite
+Crystal System: Triclinic
+Hardness: 		1.5-2.0
+Luster: 		Earthy, Dull
+Color: 			Wite, BrownishWhite, GrayishWhite, YellowishWhite, GrayishGreen
+Cleavage: 		1
+
+YellowishWhite
+---
+Name: 			Gypsum
+Crystal System: Monoclinic
+Hardness: 		2.0
+Luster: 		Pearly
+Color: 			White, Colorless, YellowishWhite, GreenishWhite, Brown
+Cleavage: 		3
+
+YellowishWhite
+---
+Name: 			Barite
+Crystal System: Orthorhombic
+Hardness: 		3.0-3.5
+Luster: 		Glassy
+Color: 			White, YellowishWhite, GrayishWhite, BrownishWhite, DarkBrown
+Cleavage: 		3
+
+YellowishWhite
+---
+Name: 			Aragonite
+Crystal System: Orthorhombic
+Hardness: 		3.5-4.0
+Luster: 		Glassy
+Color: 			Colorless, White, Gray, YellowishWhite, ReddishWhite
+Cleavage: 		1
 

@@ -12,7 +12,7 @@ public class Main
     public static void main(String[] args)
     {
         System.out.println("Hello There, Welcome to the Mineral Database.");
-        System.out.println("Enter any characteristic file of a mineral based on the following:\n\tName\n\tCrystal Symetry\n\tHardness\n\tColor\n\tCleavage");
+        System.out.println("Enter any characteristic file of a mineral based on the following:\n\tName\n\tCrystal Symetry\n\tHardness\n\tLuster\n\tColor\n\tCleavage");
         System.out.println("Any mineral that fits into the characteristic given will show up as a possible option.\n");
         System.out.println("Enter in file you want to use.");
 
@@ -68,8 +68,6 @@ fileName = "Minerals.txt";
             //sort by ans
             Sorter temp = new Sorter(mineralList);
             temp.setSortKey(--ans);
-
-            temp.setSortKey(ans);
 
             return temp;
         }
@@ -218,7 +216,7 @@ fileName = "Minerals.txt";
             FileWriter myWriter = new FileWriter("dump.txt");
             myWriter.write(sorted.toString());
             myWriter.close();
-            System.out.println("Successfully wrote to the file.");
+            System.out.println("Successfully wrote to data.dump.");
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
