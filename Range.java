@@ -72,7 +72,7 @@ public class Range
         }
         else if (min != max)
         {
-            print += "-" + max;
+            print += min + "-" + max;
         }
 
         return print;

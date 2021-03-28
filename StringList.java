@@ -52,12 +52,12 @@ public class StringList
         this.list = list;
     }
     
-    public int getKey()
+    public int getStringListKey()
     {
         return key;
     }
 
-    public void setKey(int key)
+    public void setStringListKey(int key)
     {
         this.key = key;
     }

@@ -12,7 +12,7 @@ public class Mineral
 
     private ArrayList<Object> mineral = new ArrayList<Object>();
 
-    private int compKey;
+    private int mineralKey;
 
     public Mineral()
     {
@@ -23,7 +23,7 @@ public class Mineral
         color = new StringList();
         cleavage = 0;
         
-        compKey = 0;
+        mineralKey = 0;
 
         loadArray();
     }
@@ -95,22 +95,25 @@ public class Mineral
         loadArray();
     }
 
-    public int getCompKey()
+    public int getMineralKey()
     {
-        return compKey;
+        return mineralKey;
     }
 
-    public void setCompKey(int ck)
+    public void setMineralKey(int key)
     {
-        compKey = ck;
-System.out.println(compKey);
-        luster.setKey(compKey);
-        color.setKey(compKey);
+        mineralKey = key;
+
+        luster.setStringListKey(mineralKey);
+        color.setStringListKey(mineralKey);
     }
 
-    public Object returnCompKey()
+    public Object returnMineralKeyedValue()
     {
-        return mineral.get(compKey);        //Type Object ArrrayList
+        Object keyValue = mineral.get(mineralKey);
+        return keyValue;        //Type Object ArrrayList
+    
+        //mineral is an ArrayList<Object> filled with 6 components
     }    
 
     public void loadArray()
@@ -128,12 +131,15 @@ System.out.println(compKey);
     public String toString()
     {
         String minOut = "";
-        minOut += "Name: " + name + "\n";
+        minOut += "Name: \t\t" + name + "\n";
         minOut += "Crystal System: " + crystalSystem + "\n";
-        minOut += "Hardness: " + hardness.toString() + "\n";
-        minOut += "Luster: " + luster.toString() + "\n";
-        minOut += "Color: " + color.toString() + "\n";
-        minOut += "Cleavage: " + cleavage + "\n";
+        minOut += "Hardness: \t" + hardness.toString() + "\n";
+        minOut += "Luster: \t" + luster.toString() + "\n";
+        minOut += "Color: \t\t" + color.toString() + "\n";
+        if (cleavage.equals(0))
+            minOut += "Cleavage: \tNone\n";
+        else
+            minOut += "Cleavage: \t" + cleavage + "\n";
 
         return minOut;
     }

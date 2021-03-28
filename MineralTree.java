@@ -5,27 +5,27 @@ public class MineralTree
 {
     private MineralNode head;
     private ArrayList<MineralNode> list = new ArrayList<MineralNode>();
-    private int key;
+    private int treeKey;
 
     public MineralTree()
     {
         head = null;
-        key = -1;
+        treeKey = -1;
     }
 
     public MineralTree(MineralNode head)
     {
         this.head = head;
-        key = 0;
+        treeKey = 0;
     }
 
     public MineralTree(ArrayList<MineralNode> list)
     {
         this.list = list;
-        head = list.get(0);
-        key = 5;
+        head = null;
+        treeKey = 0;
 
-        formTree(5);
+        formTree(0);
     }
 
     //Setters and Getters
@@ -35,17 +35,17 @@ public class MineralTree
     }
 
 
-    public int getKey()
+    public int getTreeKey()
     {
-        return key;
+        return treeKey;
     }
 
-    public void setKey(int compKey)
+    public void setTreeKey(int mineralKey)
     {
-        if (compKey != key)
+        if (mineralKey != treeKey)
         {
-            this.key = compKey;
-            formTree(key);
+            treeKey = mineralKey;
+            formTree(treeKey);
         }
     }
 
@@ -56,21 +56,25 @@ public class MineralTree
 
     public void formTree(int key)
     {
+        treeKey = key;
+
         head = list.get(0);
+        head.setNodeKey(key);
         
-        this.key = key;
+//System.out.println("treeKey: "+treeKey);
         MineralNode cur;
 
         for (int i = 1; i < list.size(); i++) 
         {
             cur = list.get(i);      // MineralNode
-            cur.setKey(key);        
-
+            cur.setNodeKey(treeKey);        
+//System.out.println("nodeKey: "+cur.getNodeKey());
+//System.out.println("mineralKey: "+cur.getData().getMineralKey());
             // for lists (luster/color)
             // duplicate node n times
             // place each in tree on different element
 
-            if (key == 3 || key == 4)
+            if (treeKey == 3 || treeKey == 4)
             {
                 // find the number of elements
                 StringList trait = (StringList) cur.getKeyedValue();
@@ -78,12 +82,12 @@ public class MineralTree
                 for (int j = 0; j < trait.getLength(); j++)
                 {
                     Object kv = trait.getAt(j);             // String
-                    head.addElement(new MineralNode(cur, kv));
+                    head.addElement(new MineralNode(cur, kv), treeKey);
                 }
             }
             else
             {
-                head.addElement(cur);
+                head.addElement(cur, treeKey);
             }
         }
     }

@@ -7,7 +7,7 @@ public class MineralNode
     private MineralNode rNode; 
     private Mineral data;
 
-    private int key;
+    private int nodeKey;
     private Object keyedData;
 
     public MineralNode()
@@ -15,15 +15,16 @@ public class MineralNode
         lNode = null;
         rNode = null;
         data = null;
-        key = -1;
+        nodeKey = -1;
     }
 
+    // Used in main
     public MineralNode(Mineral data)
     {
         lNode = null;
         rNode = null;
         this.data = data;
-        key = data.getCompKey();
+        nodeKey = data.getMineralKey();
         keyedData = null;
     }
 
@@ -32,7 +33,7 @@ public class MineralNode
         lNode = node.getLNode();
         rNode = node.getRNode();
         data = node.getData();
-        key = node.getKey();
+        nodeKey = node.getNodeKey();
         keyedData = kv;
     }
 
@@ -41,7 +42,9 @@ public class MineralNode
         lNode = null;
         rNode = null;
         this.data = data;
-        this.key = key;
+        nodeKey = key;
+
+        data.setMineralKey(nodeKey);
 
         keyedData = assignKey();
     }
@@ -51,101 +54,99 @@ public class MineralNode
         lNode = l;
         rNode = r;
         this.data = data;
+        nodeKey = data.getMineralKey();
         
         keyedData = assignKey();
     }
-/*
-    public MineralNode(Mineral data, MineralNode l, MineralNode r, int key)
-    {
-        lNode = l;
-        rNode = r;
-        this.data = data;
-        this.key = key;
 
-        keyedData = assignKey();
-    }
-*/
-    public void addElement(MineralNode child)
+    public void addElement(MineralNode child, int key)
     {
+        nodeKey = key;
+        data.setMineralKey(key);
         Mineral elem = child.getData();
-
-        elem.setCompKey(key);
-System.out.println("KEY: "+key);
-        switch (key)
+//System.out.println("data: "+data.getMineralKey());
+//System.out.println("node: "+nodeKey);
+//System.out.println("child: "+child.getNodeKey());
+        elem.setMineralKey(nodeKey);
+//System.out.println("elem: "+elem.getMineralKey());
+        switch (nodeKey)
         {
             case 0:
             case 1:
-                String s1 = (String) data.returnCompKey();
-                String s2 = (String) elem.returnCompKey();
+                String s1 = (String) data.returnMineralKeyedValue();
+                String s2 = (String) elem.returnMineralKeyedValue();
                 if (s1.compareTo(s2) <= 0)
                 {
                     if (lNode == null)
                             lNode = child;
                     else
-                        lNode.addElement(new MineralNode(elem));
+                        lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
                             rNode = child;
                     else
-                        rNode.addElement(new MineralNode(elem));
+                        rNode.addElement(new MineralNode(elem), key);
                 }
                 break;
             case 2:
-                Range r1 = (Range) data.returnCompKey();
-                Range r2 = (Range) elem.returnCompKey();
+                Range r1 = (Range) data.returnMineralKeyedValue();
+                Range r2 = (Range) elem.returnMineralKeyedValue();
                 if (r1.compareTo(r2) <= 0)
                 {
                     if (lNode == null)
                             lNode = child;
                     else
-                        lNode.addElement(new MineralNode(elem));
+                        lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
                             rNode = child;
                     else
-                        rNode.addElement(new MineralNode(elem));
+                        rNode.addElement(new MineralNode(elem), key);
                 }
                 break;
             case 3:
             case 4:
-                StringList sl1 = (StringList) data.returnCompKey();
-                StringList sl2 = (StringList) elem.returnCompKey();
+                StringList sl1 = (StringList) data.returnMineralKeyedValue();
+                StringList sl2 = (StringList) elem.returnMineralKeyedValue();
                 if (sl1.compareTo(sl2) <= 0)
                 {
                     if (lNode == null)
                             lNode = child;
                     else
-                        lNode.addElement(new MineralNode(elem));
+                        lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
                             rNode = child;
                     else
-                        rNode.addElement(new MineralNode(elem));
+                        rNode.addElement(new MineralNode(elem), key);
                 }
                 break;
-            default:
-//System.out.println(data.returnCompKey());
-                Integer i1 = (Integer) data.returnCompKey();    // data is a Mineral
-                Integer i2 = (Integer) elem.returnCompKey();    // retComp is Object
+            case 5:
+//System.out.println(data.toString()+"\n---\n"+elem.toString());
+//System.out.println(data.getCleavage()+"\n---\n"+elem.getCleavage());
+                Integer i1 = (Integer) data.returnMineralKeyedValue();    // data is a Mineral
+//System.out.println("cleavage1: "+i1);
+                Integer i2 = (Integer) elem.returnMineralKeyedValue();    // retComp is Object
+//System.out.println("cleavage2: "+i2);
                 if (i1.compareTo(i2) <= 0)
                 {
                     if (lNode == null)
                             lNode = child;
                     else
-                        lNode.addElement(new MineralNode(elem));
+                        lNode.addElement(new MineralNode(elem), key);
                 }
                 else
                 {
                     if (rNode == null)
                             rNode = child;
                     else
-                        rNode.addElement(new MineralNode(elem));
+                        rNode.addElement(new MineralNode(elem), key);
                 }
                 break;
         }
@@ -182,18 +183,18 @@ System.out.println("KEY: "+key);
         this.data = data;
     }
 
-    public int getKey()
+    public int getNodeKey()
     {
-        return key;
+        return nodeKey;
     }
 
-    public void setKey(int k)
+    public void setNodeKey(int k)
     {
-        key = k;
+        nodeKey = k;
 
-        data.setCompKey(key);
+        data.setMineralKey(nodeKey);
         
-        keyedData = assignKey();
+        keyedData = assignKey();        //of Type Object
     }
 
     public Object getKeyedValue()
@@ -225,19 +226,17 @@ System.out.println("KEY: "+key);
         String ret = "";
         if (lNode != null)
         {
-            ret += lNode.toString();
-            ret += "\n-------------\n\n";
+            ret += lNode.toString() + "\n";
         }
-        ret += data.toString();
-        ret += "\n-------------\n\n";
+        ret += data.toString() + "\n";
         if (rNode != null)
-            ret += rNode.toString();
+            ret += rNode.toString() + "\n";
         return ret;
     }
 
     public Object assignKey()
     {
-        switch (key) {
+        switch (nodeKey) {
             case 0:
                 return data.getName();
             case 1:
@@ -256,7 +255,7 @@ System.out.println("KEY: "+key);
 
     public int compareTo(MineralNode other)
     {
-        switch (key)
+        switch (nodeKey)
         {
             case 0:
             case 1:
@@ -279,8 +278,8 @@ System.out.println("KEY: "+key);
 /*
     public void addElement(Mineral elem)
     {
-        int key = data.getCompKey();
-        elem.setCompKey(key);
+        int key = data.getMineralKey();
+        elem.setMineralKey(key);
 
         MineralNode child = new MineralNode(elem);
 
@@ -288,8 +287,8 @@ System.out.println("KEY: "+key);
         {
             case 0:
             case 1:
-                String s1 = (String) data.returnCompKey();
-                String s2 = (String) elem.returnCompKey();
+                String s1 = (String) data.returnMineralKey();
+                String s2 = (String) elem.returnMineralKey();
                 if (s1.compareTo(s2) <= 0)
                 {
                     if (lNode == null)
@@ -306,8 +305,8 @@ System.out.println("KEY: "+key);
                 }
                 break;
             case 2:
-                Range r1 = (Range) data.returnCompKey();
-                Range r2 = (Range) elem.returnCompKey();
+                Range r1 = (Range) data.returnMineralKey();
+                Range r2 = (Range) elem.returnMineralKey();
                 if (r1.compareTo(r2) <= 0)
                 {
                     if (lNode == null)
@@ -325,8 +324,8 @@ System.out.println("KEY: "+key);
                 break;
             case 3:
             case 4:
-                StringList sl1 = (StringList) data.returnCompKey();
-                StringList sl2 = (StringList) elem.returnCompKey();
+                StringList sl1 = (StringList) data.returnMineralKey();
+                StringList sl2 = (StringList) elem.returnMineralKey();
                 if (sl1.compareTo(sl2) <= 0)
                 {
                     if (lNode == null)
@@ -343,8 +342,8 @@ System.out.println("KEY: "+key);
                 }
                 break;
             default:
-                Integer i1 = (Integer) data.returnCompKey();
-                Integer i2 = (Integer) elem.returnCompKey();
+                Integer i1 = (Integer) data.returnMineralKey();
+                Integer i2 = (Integer) elem.returnMineralKey();
                 if (i1.compareTo(i2) <= 0)
                 {
                     if (lNode == null)

@@ -15,16 +15,27 @@ public class Main
         System.out.println("Enter in file you want to use.");
 
         Scanner scanner = new Scanner(System.in);
-        String fileName = scanner.nextLine();
+        String fileName = "";
+        File f1;
+
+        // Make sure a valid filename was entered
+        do {
+//            fileName = scanner.nextLine();
+fileName = "Minerals.txt";
+            f1 = new File(fileName);
+            if (!f1.exists())
+                System.out.println("Could not find file, try another");
+        } while (!f1.exists());
 
         ArrayList<Mineral> mineralList = readFile(fileName);
-        ArrayList<MineralTree> search = new ArrayList<MineralTree>();
         MineralTree workingSet = new MineralTree();
 
         String answer;
         boolean b;
 
-        workingSet = options(workingSet, mineralList);
+        workingSet = options(workingSet, mineralList);      // creates a tree coded on Names
+
+        workingSet.setTreeKey(1);
 
         System.out.println(workingSet.toString());
 /*
@@ -62,11 +73,9 @@ public class Main
         boolean b;
 
         do {
-            // tell options
-                //only allow create dataset (1) if there isn't one already
-            //S.o.pl(here are following options:)
-            System.out.println("Here are the following options or enter 'back' to return:");
+            // give the user the options they can do with the data set
 
+            System.out.println("Here are the following options or enter 'back' to return:");
             b = false;
 
             // If there is no set yet
@@ -82,18 +91,15 @@ public class Main
                 if (answer.toLowerCase().compareTo("back") == 0)
                     return null;
                 if (!b)
-                {
-                    //S.o.pl(enter 1);
                     System.out.println("Please enter 1 or 'back' to continue");
-                }
                 else
                 {
-                    ArrayList<MineralNode> nodes = new ArrayList<MineralNode>();
+                    ArrayList<MineralNode> nodeList = new ArrayList<MineralNode>();
 
                     for (int i = 0; i < mineralList.size(); i++)
-                        nodes.add(i, new MineralNode(mineralList.get(i)));
+                    nodeList.add(i, new MineralNode(mineralList.get(i)));      // Minerals to Nodes
 
-                    return new MineralTree(nodes);
+                    return new MineralTree(nodeList);
                 }
             }
 
@@ -178,14 +184,19 @@ public class Main
             ArrayList<Mineral> mineralList = new ArrayList<Mineral>();
             int cur = 0;
 
+            // Read each line
             while (scanner.hasNextLine())
             {
                 String data = scanner.nextLine();
+
+                // Create an emptyMaterial object
                 Mineral currentMineral = new Mineral();
                 if (data.length() > 0)
                 {
                     String[] elements = data.split(";");
 
+
+                    // Add each component to the current Material
                     for (int i = 0; i < elements.length; i++)
                     {
                         elements[i] = elements[i].replaceAll("\\s","");
@@ -237,12 +248,14 @@ public class Main
                                     currentMineral.setCleavage(new Integer(cleavage));
                                 }
                                 else 
-                                    currentMineral.setCleavage(new Integer(-1));
+                                    currentMineral.setCleavage(new Integer(0));
 
                                 break; 
                         }
                     }
                 }
+
+                // Add the material to an ArrayList
                 mineralList.add(cur++, currentMineral);
             }
             scanner.close();
